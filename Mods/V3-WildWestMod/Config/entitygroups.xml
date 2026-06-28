@@ -1,0 +1,1785 @@
+<wildwestmod>
+
+<!-- *** BIOME_GROUPS -->
+	<!-- *** BIOME_ALL_ZOMBIES_GROUP -->
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+		<e n="zombieSpiderFeralFireGlider" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.025" />
+	</append>
+
+	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP -->
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
+		<e n="zombieSpiderFeralFireGlider" p="0.1" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.085" />
+		<e n="zombieOakBigFoot" p="0.085" />
+	</append>
+	
+<!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieSpiderFeralFireGlider" p="0.1" />	
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieWightFeralGunslinger" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />	
+		<e n="animalHorseKiller" p="0.05" />	
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.025" />
+		<e n="zombieOakBigFoot" p="0.015" />
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForestNight']">
+		<e n="zombieTheRat" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />	
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieWightFeralGunslinger" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />	
+		<e n="animalHorseKiller" p="0.05" />	
+		<e n="zombieOakBigFoot" p="0.025" />
+		<e n="zombieOakBigFootInfernal" p="0.015" />
+	</append>
+
+<!-- *** BIOME_ZOMBIES_DESERT_GROUP -->
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesDesert']">
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />	
+		<e n="zombieMolotovSoldierFeral" p="0.25" />
+		<e n="zombieWightRadiatedGunslinger" p="0.175" />
+		<e n="zombieSpiderFeralFireGlider" p="0.125" />		
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.05" />
+		<e n="zombieOakBigFootInfernal" p="0.05" />
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']">
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />	
+		<e n="zombieMolotovSoldierFeral" p="0.25" />
+		<e n="zombieWightRadiatedGunslinger" p="0.2" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />		
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.1" />
+		<e n="zombieOakBigFootInfernal" p="0.1" />
+	</append>
+	
+<!-- *** BIOME_ZOMBIES_SNOW_GROUP -->
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesSnow']">
+		<e n="zombieLumberjackFeral" p="0.25" />
+		<e n="zombieWightChargedGunslinger" p="0.175" />
+		<e n="zombieSpiderFeralFireGlider" p="0.125" />		
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.05" />
+		<e n="zombieOakBigFootSnow" p="0.05" />
+	</append>
+	
+<!-- *** BIOME_ZOMBIES_SNOW_GROUP_NIGHT -->
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']">
+		<e n="zombieLumberjackFeral" p="0.25" />
+		<e n="zombieWightChargedGunslinger" p="0.2" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />		
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.1" />
+		<e n="zombieOakBigFootSnow" p="0.1" />
+	</append>
+
+<!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesAllWasteland']">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="1.5" />
+		<e n="zombieWightRadiated" />		
+		<e n="zombieSoldierFeral" p="1.5" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="2" />
+		<e n="zombieTheRatFeral" />		
+		<e n="zombieWightInfernalGunslinger" p="1.5" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.95" />		
+		<e n="zombieBusinessManChargedGunslinger" p="0.85" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.75" />		
+		<e n="zombieLumberjackRadiatedAxe" p="0.8" />	
+		<e n="zombieLumberjackInfernalAxe" p="0.75" />	
+		<e n="zombieMutatedFeral" p="1.5" />
+		<e n="zombieMutatedRadiated" />		
+		<e n="zombieTheRatRadiated" p="0.6" />
+		<e n="zombieSpiderRadiated" />		
+		<e n="zombieFemaleFatBarker" p="0.8" />		
+		<e n="zombieFemaleBigFatBarker" p="0.75" />
+		<e n="guppyVultureBurnt" p="1.2" />		
+		<e n="guppyMommaVultureBurnt" p="0.8" />	
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.5" />	
+		<e n="zombieMolotovSoldierFeral" p="0.5" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.5" />		
+		<e n="zombieSpiderFeralFireGlider" p="0.5" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.5" />		
+		<e n="zombieOakBigFoot" p="0.5" />	
+		<e n="zombieOakBigFootSnow" p="0.5" />
+		<e n="zombieOakBigFootInfernal" p="0.5" />		
+		<e n="zombieOakBigFootCharged" p="0.5" />
+		<e n="zombieScreamerBossRadiatedSpitter" p="0.5" />
+	</set>
+	
+<!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="1.5" />
+		<e n="zombieWightRadiated" />		
+		<e n="zombieSoldierFeral" p="1.5" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="2" />
+		<e n="zombieTheRatFeral" />		
+		<e n="zombieWightInfernalGunslinger" p="1.5" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.95" />		
+		<e n="zombieBusinessManChargedGunslinger" p="0.85" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.75" />		
+		<e n="zombieLumberjackRadiatedAxe" p="0.8" />	
+		<e n="zombieLumberjackInfernalAxe" p="0.75" />	
+		<e n="zombieMutatedFeral" p="1.5" />
+		<e n="zombieMutatedRadiated" />		
+		<e n="zombieTheRatRadiated" p="0.6" />
+		<e n="zombieSpiderRadiated" />		
+		<e n="zombieFemaleFatBarker" p="0.8" />		
+		<e n="zombieFemaleBigFatBarker" p="0.75" />
+		<e n="guppyVultureBurnt" p="1.2" />		
+		<e n="guppyMommaVultureBurnt" p="0.8" />	
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.5" />	
+		<e n="zombieMolotovSoldierFeral" p="0.5" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.5" />		
+		<e n="zombieSpiderFeralFireGlider" p="0.5" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.5" />		
+		<e n="zombieOakBigFoot" p="0.5" />	
+		<e n="zombieOakBigFootSnow" p="0.5" />
+		<e n="zombieOakBigFootInfernal" p="0.5" />		
+		<e n="zombieOakBigFootCharged" p="0.5" />
+		<e n="zombieScreamerBossRadiatedSpitter" p="0.5" />
+	</set>
+	
+<!-- *** INTEGRATION FOR ANIMALS -->
+
+<!-- *** FOREST ANIMALS -->	
+	<append xpath="/entitygroups/entitygroup[@name='WildGameForest']">
+		<e n="animalBoar" p="3" />
+		<e n="animalStag" p="4" />
+		<e n="animalDoe" p="5" />		
+		<e n="animalBear" p="1" />
+		<e n="animalWolf" p="1" />
+		<e n="animalDireWolf" p="0.05" />
+	</append>
+	
+<!-- *** FOREST ANIMALS NIGHT -->
+	<append xpath="/entitygroups/entitygroup[@name='WildGameForestNight']">
+		<e n="animalSmallBat" p="25" />
+	</append>
+
+	<!-- *** BURNT_FOREST -->
+		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_ANY -->
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestAny']">
+		<e n="animalDireWolf" p="3" />
+	</append>
+	
+		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_NIGHT -->
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestNight']">
+		<e n="animalDireWolf" p="3" />
+	</append>
+	
+<!-- *** DESERT ANIMALS -->
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']">
+		<e n="animalDesertHare" p="10" />
+		<e n="animalBisonBoar" p="6" />
+		<e n="animalBisonBear" p="0.75" />
+		<e n="guppyVultureBurnt" p="12" />
+		<e n="animalScorpion" p="12" />
+		<e n="animalDireWolf" p="3" />
+	</append>
+	
+<!-- *** DESERT ANIMALS NIGHT -->
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesertNight']">
+		<e n="animalDesertHare" p="10" />
+		<e n="animalBisonBoar" p="6" />
+		<e n="animalBisonBear" p="0.75" />
+		<e n="guppyVultureBurnt" p="12" />
+		<e n="animalScorpion" p="12" />
+		<e n="animalDireWolf" p="5" />
+	</append>
+	
+<!-- *** SNOW ANIMALS -->
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']">
+		<e n="animalSnowHare" p="12" />
+		<e n="animalWolf" p="10" />
+		<e n="animalWildWestSnowBear" p="9" />
+		<e n="animalDireWolf" p="3" />
+		<e n="SnowWendigo" p="2" />
+	</append>
+	
+<!-- *** SNOW ANIMALS -->
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnowNight']">
+		<e n="animalSnowHare" p="5" />
+		<e n="animalWildWestSnowBear" p="5" />
+		<e n="SnowWendigo" p="2" />
+	</append>
+	
+<!-- *** WASTELAND ANIMALS -->
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
+		<e n="animalZombieWastelandCraterBear" p="20" />
+		<e n="animalBossGrace" p="15" />
+		<e n="animalZombieLargeVulture" p="10" />
+		<e n="animalZombieFeralChicken" p="10" />
+		<e n="animalHorseKiller" p="10" />
+	</append>
+	
+	<!-- *** ENEMY_ANIMAL_WASTELAND_NIGHT -->	
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWastelandNight']">
+		<e n="animalZombieWastelandCraterBear" p="20" />
+		<e n="animalBossGrace" p="15" />
+		<e n="animalZombieLargeVulture" p="10" />
+		<e n="animalZombieFeralChicken" p="10" />
+		<e n="animalHorseKiller" p="10" />
+	</append>
+	
+	<!-- Custom Groups -->
+	
+	<!-- Boss Group -->
+	
+	<append xpath="/entitygroups">
+	
+	<entitygroup name="BossVariantsGroupGS01">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="1.5" />
+		<e n="zombieWightRadiated" />
+		<e n="zombieSoldierFeral" p="1.5" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="1.5" />
+		<e n="zombieTheRatFeral" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.8" />
+		<e n="zombieLumberjackRadiatedAxe" p="0.8" />
+		<e n="zombieMutatedFeral" p="1.5" />	
+		<e n="zombieMutatedRadiated" />
+		<e n="zombieTheRatRadiated" p="0.8" />
+		<e n="zombieSpiderRadiated" />
+		<e n="guppyVultureBurnt" p="1.5" />		
+		<e n="guppyMommaVultureBurnt" p="0.8" />		
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.5" />
+		<e n="zombieMolotovSoldierFeral" p="0.5" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.5" />
+		<e n="zombieSpiderFeralFireGlider" p="0.25" />
+		<e n="zombieDemolition" p="0.5" />
+		<e n="SnowWendigo" p="0.5" />
+		<e n="animalZombieLargeVulture" p="0.5" />
+		<e n="animalZombieFeralChicken" p="0.5" />
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS50">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="1.2" />
+		<e n="zombieWightRadiated" />
+		<e n="zombieSoldierFeral" p="1.2" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="1.2" />
+		<e n="zombieTheRatFeral" />
+		<e n="zombieBusinessManRadiatedGunslinger" />
+		<e n="zombieLumberjackRadiatedAxe" />
+		<e n="zombieMutatedFeral" />	
+		<e n="zombieMutatedRadiated" />
+		<e n="zombieTheRatRadiated" />
+		<e n="zombieSpiderRadiated" />
+		<e n="zombieFemaleFatBarker" />
+		<e n="zombieFemaleBigFatBarker" />
+		<e n="guppyVultureBurnt" />		
+		<e n="guppyMommaVultureBurnt" />		
+		<e n="guppyRadiatedMommaVultureBurnt" />
+		<e n="zombieMolotovSoldierFeral" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" p="0.5" />
+		<e n="zombieDemolition" p="0.5" />
+		<e n="SnowWendigo" p="0.5" />
+		<e n="animalZombieBear" p="0.5" />
+		<e n="animalZombieLargeVulture" p="0.5" />
+		<e n="animalZombieFeralChicken" p="0.5" />
+		<e n="animalBisonZombieBear" p="0.5" />
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS100">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="0.8" />
+		<e n="zombieWightRadiated" />
+		<e n="zombieSoldierFeral" p="0.8" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="0.8" />
+		<e n="zombieTheRatFeral" />
+		<e n="zombieBusinessManRadiatedGunslinger" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.25" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.1" />
+		<e n="zombieLumberjackRadiatedAxe" />
+		<e n="zombieLumberjackInfernalAxe" p="0.1" />
+		<e n="zombieMutatedFeral" p="0.8" />	
+		<e n="zombieMutatedRadiated" />
+		<e n="zombieTheRatRadiated" />
+		<e n="zombieSpiderRadiated" />
+		<e n="zombieFemaleFatBarker" />
+		<e n="zombieFemaleBigFatBarker" />
+		<e n="guppyVultureBurnt" p="0.8" />		
+		<e n="guppyMommaVultureBurnt" />		
+		<e n="guppyRadiatedMommaVultureBurnt" />
+		<e n="zombieMolotovSoldierFeral" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" />
+		<e n="zombieDemolition" />
+		<e n="SnowWendigo" />
+		<e n="animalZombieBear" p="0.5" />
+		<e n="animalZombieLargeVulture" p="0.5" />
+		<e n="animalZombieFeralChicken" p="0.5" />
+		<e n="animalBisonZombieBear" p="0.5" />
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS200">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="0.5" />
+		<e n="zombieWightRadiated" />
+		<e n="zombieSoldierFeral" p="0.5" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="0.5" />
+		<e n="zombieTheRatFeral" />
+		<e n="zombieBusinessManRadiatedGunslinger" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.5" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.25" />
+		<e n="zombieLumberjackRadiatedAxe" />
+		<e n="zombieLumberjackInfernalAxe" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.5" />	
+		<e n="zombieMutatedRadiated" />
+		<e n="zombieTheRatRadiated" />
+		<e n="zombieSpiderRadiated" />
+		<e n="zombieFemaleFatBarker" />
+		<e n="zombieFemaleBigFatBarker" />
+		<e n="guppyVultureBurnt" p="0.5" />		
+		<e n="guppyMommaVultureBurnt" />		
+		<e n="guppyRadiatedMommaVultureBurnt" />
+		<e n="zombieMolotovSoldierFeral" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" />
+		<e n="zombieDemolition" />
+		<e n="SnowWendigo" />
+		<e n="animalZombieBear" p="0.5" />
+		<e n="animalZombieLargeVulture" p="0.5" />
+		<e n="animalZombieFeralChicken" p="0.5" />
+		<e n="animalBisonZombieBear" p="0.5" />
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS400">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="0.5" />
+		<e n="zombieWightRadiated" />
+		<e n="zombieSoldierFeral" p="0.5" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="0.5" />
+		<e n="zombieTheRatFeral" />
+		<e n="zombieBusinessManRadiatedGunslinger" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.5" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.25" />
+		<e n="zombieLumberjackRadiatedAxe" />
+		<e n="zombieLumberjackInfernalAxe" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.5" />	
+		<e n="zombieMutatedRadiated" />
+		<e n="zombieTheRatRadiated" />
+		<e n="zombieSpiderRadiated" />
+		<e n="zombieFemaleFatBarker" />
+		<e n="zombieFemaleBigFatBarker" />
+		<e n="guppyVultureBurnt" p="0.5" />		
+		<e n="guppyMommaVultureBurnt" />		
+		<e n="guppyRadiatedMommaVultureBurnt" />
+		<e n="zombieMolotovSoldierFeral" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" />
+		<e n="zombieDemolition" />
+		<e n="SnowWendigo" />
+		<e n="animalZombieBear" p="0.5" />
+		<e n="animalZombieLargeVulture" p="0.5" />
+		<e n="animalZombieFeralChicken" p="0.5" />
+		<e n="animalBisonZombieBear" p="0.5" />
+	</entitygroup>
+	<entitygroup name="BossVariantsGroupGS800">
+		<e n="zombieBurntRadiated" />
+		<e n="zombieWightFeral" p="0.5" />
+		<e n="zombieWightRadiated" />
+		<e n="zombieSoldierFeral" p="0.5" />
+		<e n="zombieSoldierRadiated" />		
+		<e n="zombieTheRat" p="0.5" />
+		<e n="zombieTheRatFeral" />
+		<e n="zombieBusinessManRadiatedGunslinger" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.5" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.25" />
+		<e n="zombieLumberjackRadiatedAxe" />
+		<e n="zombieLumberjackInfernalAxe" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.5" />	
+		<e n="zombieMutatedRadiated" />
+		<e n="zombieTheRatRadiated" />
+		<e n="zombieSpiderRadiated" />
+		<e n="zombieFemaleFatBarker" />
+		<e n="zombieFemaleBigFatBarker" />
+		<e n="guppyVultureBurnt" p="0.5" />		
+		<e n="guppyMommaVultureBurnt" />		
+		<e n="guppyRadiatedMommaVultureBurnt" />
+		<e n="zombieMolotovSoldierFeral" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" />
+		<e n="zombieDemolition" />
+		<e n="SnowWendigo" />
+		<e n="animalZombieBear" p="0.5" />
+		<e n="animalZombieLargeVulture" p="0.5" />
+		<e n="animalZombieFeralChicken" p="0.5" />
+		<e n="animalBisonZombieBear" p="0.5" />
+	</entitygroup>
+	
+	<!-- Wasteland Crater and Select POIs -->
+
+	<entitygroup name="animalZombieWastelandCraterBear">
+		<e n="animalZombieWastelandCraterBear" />
+	</entitygroup>
+	
+	<entitygroup name="WastelandCraterBearGroup">
+		<e n="animalZombieWastelandCraterBear" />
+	</entitygroup>
+	
+	<!-- Guppy Vulture Group -->
+	
+	<entitygroup name="CripsyVariantsGroupGS01">
+		<e n="guppyVultureBurnt" />		
+		<e n="guppyMommaVultureBurnt" p="0.1" />		
+		<e n="zombieTheRat" p="0.05" />
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS50">
+		<e n="guppyVultureBurnt" />		
+		<e n="guppyMommaVultureBurnt" p="0.25" />		
+		<e n="zombieTheRatFeral" p="0.125" />
+		<e n="animalSmallBat" p="0.5" />
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS100">
+		<e n="guppyVultureBurnt" />		
+		<e n="guppyMommaVultureBurnt" p="0.35" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.1" />		
+		<e n="zombieTheRatRadiated" p="0.05" />
+		<e n="animalSmallBat" p="0.5" />
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS200">
+		<e n="guppyVultureBurnt" />		
+		<e n="guppyMommaVultureBurnt" p="0.5" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.25" />		
+		<e n="zombieTheRatRadiated" p="0.125" />
+		<e n="animalSmallBat" p="0.5" />
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS400">
+		<e n="guppyVultureBurnt" />		
+		<e n="guppyMommaVultureBurnt" p="0.5" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.25" />		
+		<e n="zombieTheRatRadiated" p="0.125" />
+		<e n="animalSmallBat" p="0.5" />
+	</entitygroup>
+	<entitygroup name="CripsyVariantsGroupGS800">
+		<e n="guppyVultureBurnt" />		
+		<e n="guppyMommaVultureBurnt" p="0.75" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.5" />		
+		<e n="zombieTheRatRadiated" p="0.25" />
+		<e n="animalSmallBat" p="0.5" />
+	</entitygroup>
+	
+	<!-- Bat Group -->
+	
+	<entitygroup name="BatVariantsGroupGS01">
+		<e n="animalSmallBat" />
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS50">
+		<e n="animalSmallBat" />
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS100">
+		<e n="animalSmallBat" />
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS200">
+		<e n="animalSmallBat" />
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS400">
+		<e n="animalSmallBat" />
+	</entitygroup>
+	<entitygroup name="BatVariantsGroupGS800">
+		<e n="animalSmallBat" />
+	</entitygroup>
+	
+	<!-- Rat Group -->
+	
+	<entitygroup name="RatVariantsGroupGS01">
+		<e n="zombieTheRat" />
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS50">
+		<e n="zombieTheRat" p="0.8" />
+		<e n="zombieTheRatFeral" p="0.125" />
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS100">
+		<e n="zombieTheRat" p="0.7" />
+		<e n="zombieTheRatFeral" p="0.25" />
+		<e n="zombieTheRatRadiated" p="0.1" />
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS200">
+		<e n="zombieTheRat" p="0.6" />
+		<e n="zombieTheRatFeral" p="0.3" />
+		<e n="zombieTheRatRadiated" p="0.25" />
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS400">
+		<e n="zombieTheRat" p="0.5" />
+		<e n="zombieTheRatFeral" p="0.5" />
+		<e n="zombieTheRatRadiated" p="0.4" />
+	</entitygroup>
+	<entitygroup name="RatVariantsGroupGS800">
+		<e n="zombieTheRat" p="0.2" />
+		<e n="zombieTheRatFeral" p="0.7" />
+		<e n="zombieTheRatRadiated" p="0.5" />
+	</entitygroup>
+	
+	<!-- Scorpion Group -->
+	
+	<entitygroup name="ScorpionVariantsGroupGS01">
+		<e n="animalScorpion" />
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS50">
+		<e n="animalScorpion" />
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS100">
+		<e n="animalScorpion" />
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS200">
+		<e n="animalScorpion" />
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS400">
+		<e n="animalScorpion" />
+	</entitygroup>
+	<entitygroup name="ScorpionVariantsGroupGS800">
+		<e n="animalScorpion" />
+	</entitygroup>
+	
+	<!-- Bison POI Spawn Group -->
+	
+	<entitygroup name="animalBisonBoar">
+		<e n="animalBisonBoar" />
+	</entitygroup>
+
+
+	<!-- Military POI Spawn Group -->
+	
+	<entitygroup name="zombieMilitaryFeral">
+		<e n="zombieSoldierFeral" />
+		<e n="zombieMaleHazmatFeral" />
+		<e n="zombieMolotovSoldierFeral" />
+	</entitygroup>
+
+	<!-- Mon Signor POI Spawn Group -->
+
+	<entitygroup name="zombieMonsignor">
+		<e n="zombieBusinessManRadiatedGunslinger" />
+	</entitygroup>
+	
+	<!-- Bat POI Spawn Group -->
+	
+	<entitygroup name="animalSmallBat">
+		<e n="animalSmallBat" />
+	</entitygroup>
+	
+	<!-- Scorpion POI Spawn Group -->
+	
+	<entitygroup name="animalScorpion">
+		<e n="animalScorpion" />
+	</entitygroup>
+	
+	<!-- Snow Bear Sleeper Group -->
+
+	<entitygroup name="animalWildWestSnowBear">
+		<e n="animalWildWestSnowBear" />
+	</entitygroup>
+	
+<!-- *** WANDERING_HORDE_STAGES -->
+
+	<entitygroup name="zombieTheRatGroup">
+		<e n="zombieTheRat" />
+		<e n="zombieTheRatFeral" p="0.2" />
+		<e n="zombieTheRatRadiated" p="0.1" />
+		<e n="zombieScreamerBossRadiatedSpitter" p="0.025" />
+	</entitygroup>
+	
+	<!-- Boss Spitter Family -->
+	
+	<entitygroup name="BossSpitterVariantsGroupGS01">
+		<e n="animalZombieMiniPlasmaVulture" />
+		<e n="zombieMiniSpiderFeralFireGlider" />
+		<e n="guppyVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="guppyMommaVultureBurnt" p="0.15" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.1" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.1" />
+	</entitygroup>
+	<entitygroup name="BossSpitterVariantsGroupGS50">
+		<e n="animalZombieMiniPlasmaVulture" />
+		<e n="zombieMiniSpiderFeralFireGlider" />
+		<e n="guppyVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" p="0.25" />
+		<e n="guppyMommaVultureBurnt" p="0.25" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.15" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.15" />
+	</entitygroup>
+	<entitygroup name="BossSpitterVariantsGroupGS100">
+		<e n="animalZombieMiniPlasmaVulture" />
+		<e n="zombieMiniSpiderFeralFireGlider" />
+		<e n="guppyVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" p="0.35" />
+		<e n="guppyMommaVultureBurnt" p="0.35" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.25" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.25" />
+	</entitygroup>
+	<entitygroup name="BossSpitterVariantsGroupGS200">
+		<e n="animalZombieMiniPlasmaVulture" />
+		<e n="zombieMiniSpiderFeralFireGlider" />
+		<e n="guppyVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" p="0.5" />
+		<e n="guppyMommaVultureBurnt" p="0.5" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.35" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.35" />
+	</entitygroup>
+	<entitygroup name="BossSpitterVariantsGroupGS400">
+		<e n="animalZombieMiniPlasmaVulture" />
+		<e n="zombieMiniSpiderFeralFireGlider" />
+		<e n="guppyVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" p="0.75" />
+		<e n="guppyMommaVultureBurnt" p="0.75" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.5" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.5" />
+	</entitygroup>
+	<entitygroup name="BossSpitterVariantsGroupGS800">
+		<e n="animalZombieMiniPlasmaVulture" />
+		<e n="zombieMiniSpiderFeralFireGlider" />
+		<e n="guppyVultureBurnt" />
+		<e n="zombieSpiderFeralFireGlider" />
+		<e n="guppyMommaVultureBurnt" />
+		<e n="guppyRadiatedMommaVultureBurnt" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" />
+	</entitygroup>
+	
+	<!-- Wasteland Crater Boss POI -->
+
+	<entitygroup name="zombieBlueCrystalWendigo">
+		<e n="zombieBlueCrystalWendigo" />
+	</entitygroup>
+	<entitygroup name="zombieGreenCrystalWendigo">
+		<e n="zombieGreenCrystalWendigo" />
+	</entitygroup>
+	<entitygroup name="zombieBlackCrystalWendigo">
+		<e n="zombieBlackCrystalWendigo" />
+	</entitygroup>
+	<entitygroup name="BossSpitterGroup">
+		<e n="zombieBlueCrystalWendigo" />
+		<e n="zombieGreenCrystalWendigo" />
+		<e n="zombieBlackCrystalWendigo" />
+	</entitygroup>
+	
+	</append>
+	
+<!-- *** INTEGRATION FOR SLEEPERS -->
+
+<!-- Mon Senor -->
+
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'ZombieGhostTownGroupGS')]/e[@n='zombieFemaleFatRadiated' and not(@p='0')]"> <!-- Stops spawning at 0 prob stages -->
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.25" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.1" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.05" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS')]/e[@n='zombieFemaleFatRadiated']">
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.9" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.4" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.25" />
+	</insertAfter>
+
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS')]/e[@n='zombieFemaleFatRadiated']">
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.9" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.4" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.25" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS')]/e[@n='zombieFemaleFatRadiated']">
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.9" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.4" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.25" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS')]/e[@n='zombieFemaleFatRadiated']">
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.9" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.4" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.25" />
+	</insertAfter>
+
+<!-- Steel Axe Lumberjack -->
+
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'zombieLumberjackGroupGS')]/e[@n='zombieLumberjackRadiated']">
+		<e n="zombieLumberjackRadiatedAxe" p="0.25" />
+		<e n="zombieLumberjackInfernalAxe" p="0.1" />
+	</insertAfter>
+
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS')]/e[@n='zombieLumberjackRadiated']">
+		<e n="zombieLumberjackRadiatedAxe" p="0.9" />
+		<e n="zombieLumberjackInfernalAxe" p="0.25" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'badassHordeStageGS')]/e[@n='zombieLumberjackRadiated']">
+		<e n="zombieLumberjackRadiatedAxe" p="0.9" />
+		<e n="zombieLumberjackInfernalAxe" p="0.25" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'badassOnlyHordeStageGS')]/e[@n='zombieLumberjackRadiated']">
+		<e n="zombieLumberjackRadiatedAxe" p="0.9" />
+		<e n="zombieLumberjackInfernalAxe" p="0.25" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS')]/e[@n='zombieLumberjackRadiated']">
+		<e n="zombieLumberjackRadiatedAxe" p="0.9" />
+		<e n="zombieLumberjackInfernalAxe" p="0.25" />
+	</insertAfter>
+	
+<!-- *** SCOUT_HORDE_STAGES -->	
+<!-- Add The Rat to Scout Horde Groups and tagged to Screamer of same type -->
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS')]/e[@n='zombieScreamer']">
+		<e n="zombieRatPet" p="1.5" />
+	</insertAfter>
+
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS')]/e[@n='zombieScreamerFeral']">
+		<e n="zombieRatPetFeral" p="1.5" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS')]/e[@n='zombieScreamerRadiated']">
+		<e n="zombieRatPetRadiated" p="1.5" />
+		<e n="zombieScreamerBossRadiatedSpitter" p="0.25" />
+	</insertAfter>
+	
+<!-- *** FERAL_HORDE_STAGES -->
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS')]/e[@n='zombieMoeRadiated']">
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.35" />		
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS')]/e[@n='zombieMoeInfernal']">
+		<e n="zombieBusinessManChargedGunslinger" p="0.25" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.15" />		
+	</insertAfter>
+
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS')]/e[@n='zombieLumberjackRadiated']">
+		<e n="zombieLumberjackRadiatedAxe" p="0.35" />
+		<e n="zombieLumberjackInfernalAxe" p="0.15" />		
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS')]/e[@n='zombieDemolition']">
+		<e n="guppyVultureBurnt" p="0.45" />
+		<e n="guppyMommaVultureBurnt" p="0.45" />
+		<e n="zombieSoldierRadiated" p="0.45" />
+		<e n="zombieMolotovSoldierFeral" p="0.45" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.45" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.45" />
+		<e n="animalZombieBear" p="0.45" />
+		<e n="animalZombieLargeVulture" p="0.45" />
+		<e n="animalZombieFeralChicken" p="0.45" />
+		<e n="animalBisonZombieBear" p="0.45" />
+		<e n="zombieTheRat" p="0.25" />
+		<e n="zombieTheRatFeral" p="0.25" />
+		<e n="zombieTheRatRadiated" p="0.25" />		
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieOakBigFoot" p="0.075" />
+		<e n="zombieOakBigFootSnow" p="0.075" />		
+		<e n="zombieOakBigFootInfernal" p="0.075" />
+		<e n="zombieOakBigFootCharged" p="0.075" />
+		<e n="zombieScreamerBossRadiatedSpitter" p="0.075" />		
+	</insertAfter>
+
+ <!-- First Crispy Family-->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS40']">
+		<e n="guppyVultureBurnt" />
+		<e n="zombieBurnt" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS80']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.1" />
+		<e n="zombieBurnt" p="0.05" />
+		<e n="zombieTheRat" p="0.025" />
+	</set>
+
+ <!-- First Grin Bomber - Military-->
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS103']">
+		<e n="zombieMaleHazmat" />
+		<e n="zombieSoldier" p="0.5" />
+		<e n="zombieMutated" p="0.25" />
+		<e n="zombieSoldierFeral" p="0.1" />		
+		<e n="zombieMaleHazmatFeral" p="0.1" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.2" />
+		<e n="zombieMaleHazmatRadiated" p="0.2" />
+		<e n="zombieMutatedRadiated" p="0.02" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.02" />		
+		<e n="zombieMolotovSoldierFeral" p="0.02" />
+		<e n="zombieSpiderFeralFireGlider" p="0.02" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.02" />
+		<e n="zombieGrinBomb" p="0.01" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS121']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.05" />
+		<e n="zombieTheRat" p="0.025" />
+		<e n="zombieTheRatFeral" p="0.025" />
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS140']">
+		<e n="zombieMaleHazmat" />
+		<e n="zombieSoldier" p="0.5" />
+		<e n="zombieMutated" p="0.25" />
+		<e n="zombieSoldierFeral" p="0.25" />		
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.1" />
+		<e n="zombieSoldierRadiated" p="0.1" />
+		<e n="zombieMaleHazmatRadiated" p="0.1" />
+		<e n="zombieMutatedRadiated" p="0.05" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.05" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.025" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.015" />
+		<e n="zombieMolotovSoldierFeral" p="0.05" />
+		<e n="zombieSpiderFeralFireGlider" p="0.05" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.05" />
+		<e n="zombieGrinBomb" p="0.025" />
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS153']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.2" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.1" />
+		<e n="zombieBurnt" p="0.075" />
+		<e n="zombieBurntFeral" p="0.05" />
+		<e n="zombieBurntRadiated" p="0.025" />
+		<e n="zombieTheRat" p="0.075" />
+		<e n="zombieTheRatFeral" p="0.05" />
+		<e n="zombieTheRatRadiated" p="0.025" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS195']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.2" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.1" />
+		<e n="zombieBurnt" p="0.075" />
+		<e n="zombieBurntFeral" p="0.05" />
+		<e n="zombieBurntRadiated" p="0.025" />
+		<e n="zombieTheRat" p="0.075" />
+		<e n="zombieTheRatFeral" p="0.05" />
+		<e n="zombieTheRatRadiated" p="0.025" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS255']">
+		<e n="zombieMaleHazmat" />
+		<e n="zombieSoldier" p="0.5" />
+		<e n="zombieMutated" p="0.5" />
+		<e n="zombieSoldierFeral" p="0.3" />		
+		<e n="zombieMaleHazmatFeral" p="0.3" />
+		<e n="zombieMutatedFeral" p="0.3" />
+		<e n="zombieSoldierRadiated" p="0.15" />
+		<e n="zombieMaleHazmatRadiated" p="0.15" />
+		<e n="zombieMutatedRadiated" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.05" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.025" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.015" />
+		<e n="zombieMolotovSoldierFeral" p="0.05" />
+		<e n="zombieSpiderFeralFireGlider" p="0.05" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.05" />
+		<e n="zombieGrinBomb" p="0.05" />
+	</set>				   
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS304']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS354']">
+		<e n="zombieSoldier" p="0.25" />
+		<e n="zombieMaleHazmat" p="0.25" />
+		<e n="zombieMutated" p="0.25" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.5" />
+		<e n="zombieMaleHazmatRadiated" p="0.5" />
+		<e n="zombieMutatedRadiated" p="0.5" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>  
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS407']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS453']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>  
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS501']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS550']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set> 
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS600']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS651']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS704']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS758']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS802']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS858']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS904']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS951']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1010']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1106']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1206']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1308']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1412']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1506']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1601']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1712']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1811']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1911']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1999']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2102']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2207']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2314']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2407']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2501']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2612']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2708']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2805']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2903']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3003']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3103']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3204']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3306']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3410']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3514']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3601']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3707']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3814']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3904']">
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4013']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4031']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4049']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4067']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4086']">
+		<e n="guppyVultureBurnt" />
+		<e n="guppyMommaVultureBurnt" p="0.4" />
+		<e n="guppyRadiatedMommaVultureBurnt" p="0.3" />
+		<e n="guppyRadiatedFireMommaVultureBurnt" p="0.2" />
+		<e n="zombieBurnt" p="0.1" />
+		<e n="zombieBurntFeral" p="0.075" />
+		<e n="zombieBurntRadiated" p="0.05" />
+		<e n="zombieBurntCharged" p="0.025" />		
+		<e n="zombieBurntInfernal" p="0.025" />		
+		<e n="zombieTheRat" p="0.1" />
+		<e n="zombieTheRatFeral" p="0.075" />
+		<e n="zombieTheRatRadiated" p="0.05" />
+		<e n="zombieSoldier" p="0.1" />
+		<e n="zombieMaleHazmat" p="0.1" />
+		<e n="zombieMutated" p="0.1" />
+		<e n="zombieSoldierFeral" p="0.25" />
+		<e n="zombieMaleHazmatFeral" p="0.25" />
+		<e n="zombieMutatedFeral" p="0.25" />
+		<e n="zombieSoldierRadiated" p="0.7" />
+		<e n="zombieMaleHazmatRadiated" p="0.7" />
+		<e n="zombieMutatedRadiated" p="0.7" />
+		<e n="zombieMolotovSoldierFeral" p="0.15" />
+		<e n="zombieSpiderFeralFireGlider" p="0.15" />
+		<e n="zombieBusinessManRadiatedGunslinger" p="0.15" />
+		<e n="zombieBusinessManChargedGunslinger" p="0.05" />
+		<e n="zombieBusinessManInfernalGunslinger" p="0.025" />
+		<e n="zombieSkateboarderUndertakerRadiated" p="0.15" />
+		<e n="zombieGrinBomb" p="0.1" />
+	</set>
+
+</wildwestmod>
