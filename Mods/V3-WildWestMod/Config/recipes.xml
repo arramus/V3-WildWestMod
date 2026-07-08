@@ -1634,11 +1634,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron,resourceElectricParts"/>
 	</effect_group>
 </recipe-->
-<!--recipe name="calendarVariantHelper" count="1" craft_time="1">
+<recipe name="calendarVariantHelper" count="1" craft_time="1">
 	<ingredient name="resourcePaper" count="5"/>
 	<ingredient name="resourcePaint" count="5"/>
 	<ingredient name="resourceNail" count="1"/>
-</recipe-->	 
+</recipe> 
 
 <recipe name="cementMixer" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="30"/>

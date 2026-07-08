@@ -27,9 +27,23 @@
 	<set xpath="/blocks/block[@name='chemistryStation']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
 
 <!-- Old Wall Clocks -->
+    <set xpath="/blocks/block[@name='wallClockWorking']/property[@name='Model']/@value">#@modfolder:Resources/NewWallClock.unity3d?wallClockPrefabNew</set>
+	<append xpath="/blocks/block[@name='wallClockWorking']">
+		<property name="ModelOffset" value="0,0.5,0"/>	
+	</append>
     <set xpath="/blocks/block[@name='wallClock']/property[@name='Model']/@value">#@modfolder:Resources/NewWallClock.unity3d?wallClockPrefabNew</set>
     <set xpath="/blocks/block[@name='wallClockBroken']/property[@name='Model']/@value">#@modfolder:Resources/NewWallClock.unity3d?wallClockBrokenPrefabNew</set>
 
+<!-- Old Calendar -->
+    <set xpath="/blocks/block[@name='calendar2034']/property[@name='Model']/@value">@:Entities/Decor/posterCatPrefab.prefab</set>
+	<append xpath="/blocks/block[@name='calendar2034']">
+		<property name="ModelOffset" value="0,0.5,-0.49" />		
+	</append>
+    <set xpath="/blocks/block[@name='posterCalendarWorkingStiff']/property[@name='Model']/@value">@:Entities/Decor/posterSparkyPrefab.prefab</set>
+	<append xpath="/blocks/block[@name='posterCalendarWorkingStiff']">
+		<property name="ModelOffset" value="0,0.5,-0.49" />		
+	</append>
+	
 <!-- Workbench replacements -->
     <set xpath="/blocks/block[@name='workbench']/property[@name='Model']/@value">#@modfolder:Resources/OakTableSaw.unity3d?TableSaw</set>
     <set xpath="/blocks/block[@name='cntCollapsedWorkbench']/property[@name='Model']/@value">#@modfolder:Resources/OakTableSaw.unity3d?TableSawBroke</set>
