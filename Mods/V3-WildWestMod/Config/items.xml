@@ -7662,6 +7662,34 @@
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientTime" value=".2"/>
 	</item>
+	
+<!-- Oakraven Hydroponics -->
+
+<item name="OakravenCompostTea">
+	<property name="HoldType" value="31"/>
+	<property name="CustomIcon" value="OakravenCompostTea"/>
+	<property name="DescriptionKey" value="OakravenCompostTeaDesc"/>
+	<property name="Meshfile" value="@:Other/Items/Food/masonJarCoffeePrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="Food/Cooking"/>
+</item>
+
+<item name="OakravenHydroponicFeed">
+	<property name="HoldType" value="3"/>
+	<property name="CustomIcon" value="OakravenHydroponicFeed"/>
+	<property name="DescriptionKey" value="OakravenHydroponicFeedDesc"/>	
+	<property name="Meshfile" value="#@modfolder:Resources/V3WWMHydro.unity3d?WWMHydroFeed.prefab"/>
+	<property name="DropMeshfile" value="#@modfolder:Resources/V3WWMHydro.unity3d?WWMHydroFeed.prefab"/>
+	<property name="Material" value="Mdirt"/>
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="Food/Cooking"/>
+</item>
 		
 		<item name="WildWestStarterKit">
 			<property name="CustomIcon" value="cntLeatheroakpack"/>

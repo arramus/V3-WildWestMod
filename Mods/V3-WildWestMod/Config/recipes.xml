@@ -6368,6 +6368,99 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
+    <!-- Hydroponic Farming -->
+	
+	<recipe name="OakravenHydroponicWorkbench" count="1">
+		<ingredient name="resourceForgedIron" count="25"/>
+		<ingredient name="resourceMechanicalParts" count="20"/>
+		<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceNail" count="100"/>
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+			 
+	<recipe name="OakravenHydroponicFarmBlock" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="resourceElectricParts" count="10"/>
+		<ingredient name="terrGravel" count="3"/>
+		<ingredient name="resourceForgedIron" count="10"/>
+		<ingredient name="resourceWood" count="40"/>
+		<ingredient name="drinkJarRiverWater" count="5"/>
+	</recipe>	
+			 
+	<recipe name="OakravenHydroponicFeed" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="drinkJarBeer" count="1"/>
+		<ingredient name="OakravenCompostTea" count="1"/>
+	</recipe>
+
+	<recipe name="OakravenCompostTea" count="1" craft_time="45" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+		<ingredient name="foodRottingFlesh" count="5"/>
+		<ingredient name="drinkJarRiverWater" count="1"/>
+		<ingredient name="resourceYuccaFibers" count="20"/>
+		<ingredient name="resourceCoal" count="10"/>
+	</recipe>
+	
+    <!-- Hydroponic Seedling Plugs -->
+	
+	<recipe name="OakravenHydroponicBlueberrySeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedBlueberry1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicChrysanthemumSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedChrysanthemum1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicCoffeeSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedCoffee1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicCornSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedCorn1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicCottonSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedCotton1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicGoldenrodSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedGoldenrod1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicHopSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedHop1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicPotatoSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedPotato1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicPumpkinSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedPumpkin1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicSuperCornSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedGraceCorn1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicYuccaSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedYucca1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+	
+	<recipe name="OakravenHydroponicAloeSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedAloe1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
+
 	<!-- 0-Score Drop Box -->	
     <recipe name="cntIronWWMDropBox" count="1" tags="packMuleCrafting">
       <ingredient name="resourceForgedIron" count="10"/>

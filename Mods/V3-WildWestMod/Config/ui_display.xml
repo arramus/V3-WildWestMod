@@ -53,6 +53,11 @@
 			<crafting_category name="HPAmmo" icon="ui_game_symbol_ammopress_hpammo" display_name="lblCategoryAmmoPressHPAmmo"/>
 			<crafting_category name="APAmmo" icon="ui_game_symbol_ammopress_apammo" display_name="lblCategoryAmmoPressAPAmmo"/>
 		</crafting_category_list>
+		
+		<crafting_category_list display_type="OakravenHydroponicWorkbench">
+			<crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+		</crafting_category_list>
 	
 	</append>
 	
