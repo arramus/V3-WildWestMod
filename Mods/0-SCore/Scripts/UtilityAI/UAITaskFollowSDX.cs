@@ -5,7 +5,7 @@ using UnityEngine.Scripting;
 namespace UAI
 {
     [Preserve]
-    public class UAITaskFollowSDXV4 : UAITaskBase
+    public class UAITaskFollowSDX : UAITaskBase
     {
         private EntityAlive _leader;
         
@@ -19,6 +19,8 @@ namespace UAI
         private float _stuckTimer;
         private float _pathRecalculateTimer;
         private const float PathRecalculateInterval = 0.5f; // Only pathfind every 0.5 seconds max
+        private float _pathRetryTimer;
+        private const float PathRetryInterval = 1f; // while stuck, retry pathing this often
 
         public override void initializeParameters()
         {
@@ -44,7 +46,7 @@ namespace UAI
             _pathRecalculateTimer = 0f;
             _lastLeaderPos = _leader.position;
 
-            CombatUtils.SetCrouching(context, _leader.IsCrouching);
+            SCoreUtils.SetCrouching(context, _leader.IsCrouching);
             EntityUtilities.ClearAttackTargets(context.Self.entityId);
 
             // Initial Move
@@ -62,8 +64,8 @@ namespace UAI
                 return;
             }
 
-            PathingUtils.SetSpeed(context, true);
-            CombatUtils.SetCrouching(context, _leader.IsCrouching);
+            SCoreUtils.SetSpeed(context, true);
+            SCoreUtils.SetCrouching(context, _leader.IsCrouching);
 
             float distToLeader = Vector3.Distance(context.Self.position, _leader.position);
 
@@ -71,18 +73,30 @@ namespace UAI
             // Condition A: Too far away
             if (distToLeader > _maxDistance)
             {
-                PathingUtils.TeleportToLeader(context, false);
+                SCoreUtils.TeleportToLeader(context, false);
                 Stop(context); // Reset task after teleport to force re-evaluation
                 return;
             }
 
             // Condition B: Blocked / Stuck logic
-            if (PathingUtils.IsBlocked(context))
+            if (SCoreUtils.IsBlocked(context))
             {
                 _stuckTimer += Time.deltaTime;
+
+                // While stuck, retry pathing toward the leader more aggressively than the normal
+                // 0.5s/1m-moved gate in UpdatePathing() - the cached path may itself be why we're
+                // stuck (a locally bad route), and that gate would otherwise never recalculate it
+                // as long as the leader stays still.
+                _pathRetryTimer -= Time.deltaTime;
+                if (_pathRetryTimer <= 0f)
+                {
+                    MoveToLeader(context);
+                    _pathRetryTimer = PathRetryInterval;
+                }
+
                 if (_stuckTimer >= _teleportDelay)
                 {
-                    PathingUtils.TeleportToLeader(context, false);
+                    SCoreUtils.TeleportToLeader(context, false);
                     _stuckTimer = 0f;
                 }
                 // If we are stuck, we don't want to run the movement logic below
@@ -92,6 +106,7 @@ namespace UAI
             {
                 // Reset stuck timer if we are moving freely
                 _stuckTimer = 0f;
+                _pathRetryTimer = 0f; // reset so the next stuck episode retries immediately
             }
 
             // 2. MOVEMENT LOGIC
@@ -119,7 +134,7 @@ namespace UAI
             _lastLeaderPos = _leader.position;
             // Use boolean 'false' for run to prevent constant sprinting if you want them to match speed, 
             // otherwise 'true' forces sprint. SCoreUtils usually handles speed based on distance.
-            PathingUtils.FindPath(context, _lastLeaderPos, false); 
+            SCoreUtils.FindPath(context, _lastLeaderPos, false); 
         }
 
         private void UpdatePathing(Context context)

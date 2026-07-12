@@ -1149,7 +1149,7 @@
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
-			<property name="steerMaxAngle" value="60"/>
+			<property name="steerMaxAngle" value="0"/>
 			<property name="IKHandLPosition" value="-0.15, -0.1, -0.1"/>
 			<property name="IKHandLRotation" value="-0.5, 90, 24.01"/>
 			<property name="IKHandRPosition" value="0.15, -0.1, -0.1"/>
@@ -1279,7 +1279,7 @@
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
-			<property name="steerMaxAngle" value="60"/>
+			<property name="steerMaxAngle" value="0"/>
 			<property name="IKHandLPosition" value="-0.15, -0.1, -0.1"/>
 			<property name="IKHandLRotation" value="-0.5, 90, 24.01"/>
 			<property name="IKHandRPosition" value="0.15, -0.1, -0.1"/>
@@ -1424,7 +1424,7 @@
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
-			<property name="steerMaxAngle" value="60"/>
+			<property name="steerMaxAngle" value="0"/>
 			<property name="IKHandLPosition" value="-0.15, -0.1, -0.1"/>
 			<property name="IKHandLRotation" value="-0.5, 90, 24.01"/>
 			<property name="IKHandRPosition" value="0.15, -0.1, -0.1"/>
