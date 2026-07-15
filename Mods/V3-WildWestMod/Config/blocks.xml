@@ -178,17 +178,11 @@
 <!-- Set for player chests replacement -->
 
 	<set xpath="/blocks/block[@name='cntWoodWritableCrate']/property[@name='Model']/@value">#@modfolder:Resources/WestChests.unity3d?OakChest1</set>
-	<set xpath="/blocks/block[@name='cntWoodWritableCrate']/property/property/property[@name='FontSize']/@value">500</set>
 	<set xpath="/blocks/block[@name='cntWoodWritableCrateInsecure']/property[@name='Model']/@value">#@modfolder:Resources/WestChests.unity3d?OakChest1</set>
-	<set xpath="/blocks/block[@name='cntWoodWritableCrateInsecure']/property/property/property[@name='FontSize']/@value">500</set>
     <set xpath="/blocks/block[@name='cntIronWritableCrate']/property[@name='Model']/@value">#@modfolder:Resources/WestChests.unity3d?OakChest2</set>
-	<set xpath="/blocks/block[@name='cntIronWritableCrate']/property/property/property[@name='FontSize']/@value">500</set>
     <set xpath="/blocks/block[@name='cntIronWritableCrateInsecure']/property[@name='Model']/@value">#@modfolder:Resources/WestChests.unity3d?OakChest2</set>
-	<set xpath="/blocks/block[@name='cntIronWritableCrateInsecure']/property/property/property[@name='FontSize']/@value">500</set>
     <set xpath="/blocks/block[@name='cntSteelWritableCrate']/property[@name='Model']/@value">#@modfolder:Resources/WestChests.unity3d?OakChest3</set>
-	<set xpath="/blocks/block[@name='cntSteelWritableCrate']/property/property/property[@name='FontSize']/@value">500</set>
     <set xpath="/blocks/block[@name='cntSteelWritableCrateInsecure']/property[@name='Model']/@value">#@modfolder:Resources/WestChests.unity3d?OakChest3</set>
-	<set xpath="/blocks/block[@name='cntSteelWritableCrateInsecure']/property/property/property[@name='FontSize']/@value">500</set>
 
 <!-- Set for SportsBag01 replacement custom features -->
 	
