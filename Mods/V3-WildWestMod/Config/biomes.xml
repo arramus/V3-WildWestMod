@@ -24,6 +24,12 @@
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Removing plastic trash from Burnt Forest -->
 	<remove xpath="//biome[@name='burnt_forest']/subbiome/decorations/decoration[@blockname='cntTrashPile01']"/>
+	
+	<!-- *** Burnt Forest: Sub Biome: Mushrooms, Thick Grass, and Shrubs -->
+	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@noise='.033, 0, .3']/decorations">
+			<decoration type="block" blockname="plantedCoffee3Harvest" prob=".0025" rotatemax="7"/>
+	</append>
+	
 	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
 			<decoration type="block" blockname="bluerock22" prob="0.0002" rotatemax="7"/>
 			<decoration type="block" blockname="bluerock33" prob="0.0002" rotatemax="7"/>
