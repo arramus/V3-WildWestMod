@@ -1463,7 +1463,7 @@ quest_eliminatezombies100_description,Quest,Quest Info,,,,"Accept this bounty qu
 quest_eliminatezombies250_offer,Quest,Quest Info,,,,"Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25, 50, 75, 100, and 250 for a total of 500 for incremental XP and 3 Skill. Start all over again.",,,,,,,,,,,,,
 quest_eliminatezombies250_name,Quest,Quest Info,,,,"250 Infected Settlers",,,,,,,,,,,,,
 quest_eliminatezombies250_subtitle,Quest,Quest Info,,,,"250 Infected Settlers",,,,,,,,,,,,,
-quest_eliminatezombies250_description,Quest,Quest Info,,,"Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25, 50, 75, 100, and 250 for a total of 500 for incremental XP and 3 Skill. Start all over again.",,,,,,,,,,,,,
+quest_eliminatezombies250_description,Quest,Quest Info,,,,"Accept this bounty quest to 'cure' the infected settlers. There are multiple stages which continuosly loop. Cure 25, 50, 75, 100, and 250 for a total of 500 for incremental XP and 3 Skill. Start all over again.",,,,,,,,,,,,,
 
 qc_eliminateanimals,items,Quest - Challenge,,,,"Hunter Achievement Quest",,,,,,,,,,,,,
 qc_eliminateanimalsDesc,items,Quest - Challenge,,,,"Read this Quest Note, and accept the challenge to find and hunt animals over multiple stages. Earn XP, and 3 Skill Points upon completion.\n\nThis Quest repeats in an endless loop.",,,,,,,,,,,,,
