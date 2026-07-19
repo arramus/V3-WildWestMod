@@ -144,6 +144,9 @@
 		<e n="zombieOakBigFootInfernal" p="0.5" />		
 		<e n="zombieOakBigFootCharged" p="0.5" />
 		<e n="zombieScreamerBossRadiatedSpitter" p="0.5" />
+		<e n="zombieBlueCrystalWendigo" p="0.1" />
+		<e n="zombieGreenCrystalWendigo" p="0.1" />
+		<e n="zombieBlackCrystalWendigo" p="0.1" />
 	</set>
 	
 <!-- *** INTEGRATION FOR ANIMALS -->
