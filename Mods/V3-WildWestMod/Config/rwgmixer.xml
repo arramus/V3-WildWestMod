@@ -22,13 +22,13 @@
 
 	<!--set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_gateway']/@value">true</set--> <!-- Stops roads appearing -->
 	<append xpath="/rwgmixer/township[@name='oldwest']/property[@name='biomes']/@value">,forest,burntforest,snow,wasteland</append><!-- Expanding desert -->
-	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='count']/@value">3, 4, 6</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='count']/@value">4, 6, 8</set>
 	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='tiles']/@value">6, 12</set>
-	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='count']/@value">4, 6, 8</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='count']/@value">6, 8, 10</set>
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='tiles']/@value">6, 16</set>	
-	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='count']/@value">6, 9, 12</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='count']/@value">8, 10, 12</set>
 	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='tiles']/@value">6, 16</set>
-	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='count']/@value">8, 12, 16</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='count']/@value">12, 14, 16</set>
 	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='tiles']/@value">6, 16</set>
 	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='roadside']/property[@name='count']/@value">0, 0, 0</set>
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='roadside']/property[@name='count']/@value">0, 0, 0</set>
@@ -49,6 +49,10 @@
 		<property name="maxdensity" value="120"/>
 	</streettile>
 
-	</append>	
+	<prefab_spawn_adjust partial_name="trader_travelling_tmb" biomeTags="forest" />	
+	<prefab_spawn_adjust partial_name="wildwest_bosscave90_02" biomeTags="wasteland" />
+	<prefab_spawn_adjust partial_name="wildwest_stonecave_02_arramus" biomeTags="wasteland" />
+
+	</append>
 
 </wildwestmod>
