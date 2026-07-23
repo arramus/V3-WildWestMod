@@ -1988,4 +1988,5 @@
   <decoration type="model" name="wildwest_bridge_build_challenge01_TMB" position="1815,21,657" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_mountain_shack_0102_TMB" position="696,40,1495" rotation="0" y_is_groundlevel="true" />
   <decoration type="model" name="wildwest_spelunking_deathtrap_0201_TMB" position="-2071,30,-2409" rotation="0" y_is_groundlevel="true" />
+  <decoration type="model" name="wildwest_traderbobpass01" position="-788,46,-93" rotation="0" y_is_groundlevel="true" />
 </prefabs>
