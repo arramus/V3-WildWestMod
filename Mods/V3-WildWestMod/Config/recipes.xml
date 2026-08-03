@@ -6545,6 +6545,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="plantedAloe1" count="1"/>
 		<ingredient name="OakravenHydroponicFeed" count="1"/>
 	</recipe>
+	
+	<recipe name="OakravenHydroponicMushroomSeedling" count="1" craft_area="OakravenHydroponicWorkbench">
+		<ingredient name="plantedMushroom1" count="1"/>
+		<ingredient name="OakravenHydroponicFeed" count="1"/>
+	</recipe>
 
 	<!-- 0-Score Drop Box -->	
     <recipe name="cntIronWWMDropBox" count="1" tags="packMuleCrafting">
