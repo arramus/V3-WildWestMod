@@ -24,14 +24,15 @@
   <property name="SleeperVolumeFlags" value="2,2,0,0,2,2,2,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # " />
   <property class="Stats">
-    <property name="TotalVertices" value="520738" />
-    <property name="TotalTriangles" value="431759" />
+    <property name="LightsVolume" value="4386.71" />
+    <property name="TotalVertices" value="462998" />
+    <property name="TotalTriangles" value="317204" />
     <property class="BlockEntities">
-      <property name="Vertices" value="437516" />
-      <property name="Triangles" value="370813" />
+      <property name="Vertices" value="380672" />
+      <property name="Triangles" value="257866" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="39660" />
+      <property name="Vertices" value="39696" />
       <property name="Triangles" value="23494" />
     </property>
     <property class="ChunkMeshes1">
@@ -51,11 +52,14 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="13802" />
-      <property name="Triangles" value="22572" />
+      <property name="Vertices" value="12870" />
+      <property name="Triangles" value="20964" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
+    <property class="challenge_polymers">
+      <property name="0" value="41, 4, 39" />
+    </property>
     <property class="quest_stone">
       <property name="0" value="35, 2, 35" />
       <property name="1" value="36, 2, 35" />
@@ -71,9 +75,6 @@
       <property name="11" value="28, 2, 39" />
       <property name="12" value="29, 2, 40" />
     </property>
-    <property class="challenge_polymers">
-      <property name="0" value="41, 4, 39" />
-    </property>
     <property class="TraderOnOff">
       <property name="0" value="13, 6, 52" />
       <property name="1" value="14, 6, 52" />
@@ -83,6 +84,9 @@
       <property name="5" value="16, 14, 57" />
       <property name="6" value="9, 5, 58" />
       <property name="7" value="10, 5, 61" />
+    </property>
+    <property class="challenge_stump">
+      <property name="0" value="43, 5, 64" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="41, 7, 36" />
