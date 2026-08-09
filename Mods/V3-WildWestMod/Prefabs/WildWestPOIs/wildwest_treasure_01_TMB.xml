@@ -8,13 +8,12 @@
   <property name="DifficultyTier" value="0" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="Tags" value="wilderness" />
-  <property name="DuplicateRepeatDistance" value="1500" />
+  <property name="DuplicateRepeatDistance" value="700" />
   <property name="TraderArea" value="False" />
   <property name="YOffset" value="-2" />
   <property name="PrefabSize" value="7, 8, 7" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="none" />
-  <property name="Tags" value="monsignor, scorpion, devonly" />
   <property class="IndexedBlockOffsets">
     <property class="challenge_polymers">
       <property name="0" value="1, 2, 4" />
