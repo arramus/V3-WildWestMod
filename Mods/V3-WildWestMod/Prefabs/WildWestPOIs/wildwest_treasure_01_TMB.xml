@@ -7,6 +7,8 @@
   <property name="AllowTopSoilDecorations" value="False" />
   <property name="DifficultyTier" value="0" />
   <property name="ShowQuestClearCount" value="1" />
+  <property name="Tags" value="wilderness" />
+  <property name="DuplicateRepeatDistance" value="1500" />
   <property name="TraderArea" value="False" />
   <property name="YOffset" value="-2" />
   <property name="PrefabSize" value="7, 8, 7" />

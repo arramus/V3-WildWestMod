@@ -12,6 +12,7 @@
   <property name="Zoning" value="industrial" />
   <property name="AllowedTownships" value="wilderness" />
   <property name="ThemeRepeatDistance" value="1000" />
+  <property name="DuplicateRepeatDistance" value="2000" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="EditorGroups" value="government" />
   <property name="YOffset" value="-23" />

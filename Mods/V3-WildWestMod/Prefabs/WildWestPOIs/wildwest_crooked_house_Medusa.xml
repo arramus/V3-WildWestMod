@@ -21,7 +21,7 @@
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # # # # # # " />
   <property name="YOffset" value="-15" />
   <property name="EditorGroups" value="oldwest, Wilderness, wildwestoutskirt" />
-  <property name="Tags" value="wasteland" />
+  <property name="Tags" value="wilderness" />
   <property name="QuestTags" value="clear, fetch, infested" />
   <property class="Stats">
     <property name="LightsVolume" value="4444.306" />

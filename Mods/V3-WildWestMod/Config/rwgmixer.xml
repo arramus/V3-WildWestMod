@@ -49,8 +49,10 @@
 		<property name="maxdensity" value="120"/>
 	</streettile>
 
-	<prefab_spawn_adjust partial_name="trader_travelling_tmb" biomeTags="forest" />	
+	<prefab_spawn_adjust partial_name="trader_travelling_tmb" biomeTags="forest" />
+	<prefab_spawn_adjust partial_name="wildwest_felledforest_TMB" biomeTags="forest" />
 	<prefab_spawn_adjust partial_name="wildwest_bosscave90_02" biomeTags="wasteland" />
+	<prefab_spawn_adjust partial_name="wildwest_crooked_house_Medusa" biomeTags="wasteland" />
 	<prefab_spawn_adjust partial_name="wildwest_stonecave_02_arramus" biomeTags="wasteland" />
 
 	</append>

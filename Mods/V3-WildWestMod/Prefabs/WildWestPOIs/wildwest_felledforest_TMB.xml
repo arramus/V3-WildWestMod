@@ -7,6 +7,7 @@
   <property name="AllowTopSoilDecorations" value="False" />
   <property name="DifficultyTier" value="1" />
   <property name="QuestTags" value="clear,fetch" />
+  <property name="Tags" value="wilderness" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="50, 43, 50" />
