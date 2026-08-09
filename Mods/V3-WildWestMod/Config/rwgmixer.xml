@@ -54,6 +54,7 @@
 	<prefab_spawn_adjust partial_name="wildwest_bosscave90_02" biomeTags="wasteland" />
 	<prefab_spawn_adjust partial_name="wildwest_crooked_house_Medusa" biomeTags="wasteland" />
 	<prefab_spawn_adjust partial_name="wildwest_stonecave_02_arramus" biomeTags="wasteland" />
+	<prefab_spawn_adjust partial_name="wildwest_treasure_01_TMB" min_count="6" max_count="8" bias="4"/>
 
 	</append>
 
