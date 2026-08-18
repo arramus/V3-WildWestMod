@@ -1,17 +1,16 @@
 ﻿<wildwestmod>
 
-<!-- Vanilla Spikes Pickup -->
- 	<append xpath="/blocks/block[@name='trapSpikesIronDmg0']">
-		<property name="CanPickup" value="true"/>
-	</append>
- 	<append xpath="/blocks/block[@name='trapSpikesWoodDmg0']">
-		<property name="CanPickup" value="true"/>
-	</append>
+	<conditional>
+		<if cond="mod_loaded('0-SCore_sphereii')">
 
-<!-- 0-Score Tweaks for Tabby -->
+<!-- 0-Score Tweaks -->
 	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='ReadFromContainers']/@value">true</set>
 	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='Distance']/@value">20</set>
 	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedZombieFeatures']/property[@name='EnemyActiveMax']/@value">150</set>
+	
+		</if>
+	</conditional>	
+
 
 <!-- remove UnlockedBy from Electrician and Traps to match progression deletion -->
 	<remove xpath="/blocks/block/property[@name='UnlockedBy'][@value='craftingElectrician']" />
@@ -19,6 +18,14 @@
 
 <!-- remove tfp electric fence post -->
 	<remove xpath="/blocks/block[@name='electricfencepost']" />
+	
+<!-- Vanilla Spikes Pickup -->
+ 	<append xpath="/blocks/block[@name='trapSpikesIronDmg0']">
+		<property name="CanPickup" value="true"/>
+	</append>
+ 	<append xpath="/blocks/block[@name='trapSpikesWoodDmg0']">
+		<property name="CanPickup" value="true"/>
+	</append>
 	
 <!-- Pickup time -->
 	<set xpath="/blocks/block[@name='forge']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
@@ -5208,7 +5215,10 @@
 	<property name="Tags" value="crops" />
     <property name="DowngradeBlock" value="OakravenHydroponicMushroomSeedling"/>
 	</block>
-
+	
+	<conditional>
+		<if cond="mod_loaded('0-SCore_sphereii')">
+	
 	<!-- *** PLAYER_LOCKED_WRITABLE_IRON_DROP_BOX_CRATE_0-SCORE -->
 		<block name="cntIronWWMDropBox">
 			<property name="CustomIcon" value="cntIronWWMDropBox"/>
@@ -5250,6 +5260,9 @@
 			<property name="Tags" value="timecharge"/>
 			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 		</block>
+		
+		</if>
+	</conditional>
 
 </append>
 
