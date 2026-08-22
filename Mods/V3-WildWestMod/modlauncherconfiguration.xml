@@ -1,0 +1,32 @@
+<Servers>
+  <ServerGroup Name="Wild West Mod">
+    <Server Name="Wild West Mod" Logo="https://i.imgur.com/xdyD6Wq.png">
+      <Description>The Wild West Mod takes you back to the mid 19th Century American Wild West.
+	  
+Features Include:
+- Updated to current version
+- Unique Hand Crafted World by Tallman Brad
+- Exclusive Wild West POIs by Medusa, arramus, chaz916, and other creators
+- Custom Weapons, Tools, and props by Oakraven
+- Custom Entities by Oakraven
+- Rideable Horses by Oakraven, with assets from Tallman Brad and Medusa
+- Custom Vehicles by Oakraven
+- Immersive expansion Quests
+- Custom Traps for Defense and Fishing by Oakraven
+- Rolled back time relevant icons, descriptions, and features
+- Decorative Spawning Loot Opportunities (Treasure)
+- Sustainable Farming and Animal Husbandry by Oakraven
+- Custom Horde Night additions and waves, including Guppy's crispies
+- and a great deal more...
+	  </Description>
+        <Version>Latest</Version>
+		<RSS/>
+        <Excludes></Excludes>
+        <ReleaseNotes></ReleaseNotes>
+        <Discord>https://discord.gg/vc2XmnNWB8</Discord>
+        <Donate>https://www.paypal.com/paypalme/tallmanbradgameplay</Donate>
+        <DownloadMode>Clone</DownloadMode>
+      <Downloads><Download>https://github.com/arramus/V3-WildWestMod</Download></Downloads>   
+    </Server>
+  </ServerGroup>
+</Servers>

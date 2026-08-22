@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<signs version="2">
+  <sign guid="d9176f89-3b24-44b3-a2ed-62e9fd9dcd6c" name="New Sign" modified="2026-07-28 12:35:52Z" next_poly_id="0" next_text_id="1" next_noise_id="0" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="-0.01, 0.01" rot="0" scale="0.501055, 0.501055" color="#AE8282FF" mode="ColorOnly" font="Montserrat" text="DEA'S" direction="0" spacing="1.15" softness="0" dilate="0.3" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0" rot="0" scale="0.501055, 0.501055" color="#673232FF" mode="ColorOnly" font="Montserrat" text="DEA'S" direction="0" spacing="1.15" softness="0" dilate="0.2" />
+  </sign>
+  <sign guid="9db1933d-2c4d-4fa9-9b7e-45065dc83d9d" name="New Sign" modified="2026-07-28 12:36:02Z" next_poly_id="0" next_text_id="1" next_noise_id="0" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="-0.01, 0.01" rot="0" scale="0.4081123, 0.4081123" color="#AE8282FF" mode="ColorOnly" font="Montserrat" text="COFFEE" direction="0" spacing="1.12" softness="0" dilate="0.3" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0" rot="0" scale="0.4081123, 0.4081123" color="#673232FF" mode="ColorOnly" font="Montserrat" text="COFFEE" direction="0" spacing="1.12" softness="0" dilate="0.2" />
+  </sign>
+  <sign guid="fd989710-3101-485e-9466-12f23ca0e6a3" name="New Sign" modified="2026-07-28 12:34:51Z" next_poly_id="0" next_text_id="1" next_noise_id="0" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="0.02, 0.02" rot="0" scale="0.4760022, 0.4760022" color="#AE8282FF" mode="ColorOnly" font="Montserrat" text="BREAD" direction="0" spacing="1.1" softness="0" dilate="0.22" />
+    <layer name="Text 01" type="TextSignLayer" pos="0.03, 0.01" rot="0" scale="0.4760022, 0.4760022" color="#673232FF" mode="ColorOnly" font="Montserrat" text="BREAD" direction="0" spacing="1.1" softness="0" dilate="0.16" />
+  </sign>
+  <sign guid="9af5e1a7-273d-42a6-a9a8-04c348dfa7ec" name="New Sign (1)" modified="2026-07-28 12:35:25Z" next_poly_id="0" next_text_id="1" next_noise_id="0" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="-0.01, 0.02" rot="0" scale="0.584406, 0.584406" color="#AE8282FF" mode="ColorOnly" font="Montserrat" text="TEAS" direction="0" spacing="1.2" softness="0" dilate="0.22" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0.01" rot="0" scale="0.584406, 0.584406" color="#673232FF" mode="ColorOnly" font="Montserrat" text="TEAS" direction="0" spacing="1.2" softness="0" dilate="0.16" />
+  </sign>
+  <sign guid="bbd16654-e5c7-48b5-9d64-a992382fa94b" name="New Sign (2)" modified="2026-07-28 12:33:01Z" next_poly_id="0" next_text_id="1" next_noise_id="0" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="-0.04, -0.04" rot="0" scale="0.6151642, 0.6151642" color="#AE8282FF" mode="ColorOnly" font="Dancing Script" text="and" direction="0" spacing="1.14" softness="0" dilate="0.16" />
+    <layer name="Text 01" type="TextSignLayer" pos="-0.03, -0.05" rot="0" scale="0.6151642, 0.6151642" color="#673232FF" mode="ColorOnly" font="Dancing Script" text="and" direction="0" spacing="1.14" softness="0" dilate="0.1" />
+  </sign>
+</signs>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<signs version="2">
+  <sign guid="92926f1b-132b-41bc-8da6-6e80278235ce" name="New Sign" modified="2026-08-22 18:23:02Z" next_poly_id="0" next_text_id="0" next_noise_id="0" next_group_id="0" />
+  <sign guid="ab5a9170-66c9-42da-9da2-6f160b5314f1" name="New Sign" modified="2026-08-22 19:23:34Z" next_poly_id="3" next_text_id="3" next_noise_id="2" next_group_id="0">
+    <layer name="Poly 01" type="PolygonSignLayer" pos="0, 0" rot="0" scale="1.027437, 1.027437" color="#CDC59CFF" mode="ColorOnly" sides="4" smoothness="0" starify="0" softness="0" dilate="0" frequency="5" shapeMode="Normal" />
+    <layer name="Poly 02" type="PolygonSignLayer" pos="-0.04604883, 0.8166198" rot="0" scale="1.471263, 0.1706402" color="#412522FF" mode="ColorOnly" sides="4" smoothness="0.4456291" starify="0" softness="1" dilate="-0.3219614" frequency="5" shapeMode="Normal">
+      <warp type="BulgeWarp" offset="0, 0" amount="2" />
+    </layer>
+    <layer name="Text 01" type="TextSignLayer" pos="0.0313896, 0.8268654" rot="0" scale="0.2095012, 0.2095012" color="#FFFFFFFF" mode="ColorOnly" font="Dancing Script" text="Food &amp; Farming Supplies" direction="0" spacing="1" softness="0" dilate="0.16" />
+    <layer name="Text 01" type="TextSignLayer" pos="0.0313896, 0.8268654" rot="0" scale="0.2095012, 0.2095012" color="#4C926AFF" mode="ColorOnly" font="Dancing Script" text="Food &amp; Farming Supplies" direction="0" spacing="1" softness="0" dilate="0" />
+    <layer name="Poly 02" type="PolygonSignLayer" pos="-0.02163492, -0.7768106" rot="0" scale="1.3977, 0.2850005" color="#412522FF" mode="ColorOnly" sides="4" smoothness="0.4456291" starify="0" softness="1" dilate="-0.3219614" frequency="5" shapeMode="Normal">
+      <warp type="BulgeWarp" offset="0, 0" amount="2" />
+    </layer>
+    <layer name="Text 01" type="TextSignLayer" pos="0.01395093, -0.6256389" rot="0" scale="0.2205276, 0.2205276" color="#FFFFFFFF" mode="ColorOnly" font="Dancing Script" text="Don't ask for credit as" direction="0" spacing="1" softness="0" dilate="0.16" />
+    <layer name="Text 01" type="TextSignLayer" pos="0.01395093, -0.6256389" rot="0" scale="0.2205276, 0.2205276" color="#4C926AFF" mode="ColorOnly" font="Dancing Script" text="Don't ask for credit as" direction="0" spacing="1" softness="0" dilate="0" />
+    <layer name="Text 01" type="TextSignLayer" pos="0.01395093, -0.8656387" rot="0" scale="0.2205276, 0.2205276" color="#FFFFFFFF" mode="ColorOnly" font="Dancing Script" text="I Cock-a-Doodle Don't" direction="0" spacing="1" softness="0" dilate="0.16" />
+    <layer name="Text 01" type="TextSignLayer" pos="0.01395093, -0.8656387" rot="0" scale="0.2205276, 0.2205276" color="#4C926AFF" mode="ColorOnly" font="Dancing Script" text="I Cock-a-Doodle Don't" direction="0" spacing="1" softness="0" dilate="0" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="0, 0" rot="0" scale="0.5010557, 0.04733383" color="#3B2803FF" mode="ColorOnly" seed="0" detail="6" softness="0" dilate="-0.003453951" fade="0.2324095" />
+    <layer name="Poly 03" type="PolygonSignLayer" pos="0, 0.05999999" rot="0" scale="0.836854, 0.4522027" color="#412522B4" mode="ColorOnly" sides="4" smoothness="0" starify="0" softness="1" dilate="-0.1371711" frequency="5" shapeMode="Normal" />
+    <layer name="Text 02" type="TextSignLayer" pos="-0.05972746, -0.06212552" rot="0" scale="0.27075, 0.27075" color="#FFFFFFFF" mode="ColorOnly" font="Stardos Stencil" text="Canned Goods" direction="0" spacing="1" softness="0" dilate="0" />
+    <layer name="Text 02" type="TextSignLayer" pos="-0.537111, 0.2374113" rot="0" scale="0.27075, 0.27075" color="#FFFFFFFF" mode="ColorOnly" font="Stardos Stencil" text="Seeds" direction="0" spacing="1" softness="0" dilate="0" />
+    <layer name="Text 02" type="TextSignLayer" pos="-0.2197275, -0.3521255" rot="0" scale="0.27075, 0.27075" color="#FFFFFFFF" mode="ColorOnly" font="Stardos Stencil" text="Farm Tools" direction="0" spacing="1" softness="0" dilate="0" />
+    <layer name="Text 02" type="TextSignLayer" pos="-0.5440865, 0.5329422" rot="0" scale="0.27075, 0.27075" color="#FFFFFFFF" mode="ColorOnly" font="Stardos Stencil" text="Crops" direction="0" spacing="1" softness="0" dilate="0" />
+    <layer name="Noise 02" type="NoiseSignLayer" pos="0, 0" rot="0" scale="0.06117202, 0.001119421" color="#412522FF" mode="ColorOnly" seed="0" detail="4" softness="0" dilate="0" fade="0.5238096" />
+  </sign>
+</signs>
