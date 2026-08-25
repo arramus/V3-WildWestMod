@@ -1666,7 +1666,7 @@
 			<requirement name="!EntityTagCompare" target="other" tags="trader"/>
 			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="4" force="350"/>
-				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="grandslam_perk"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="silencefiller"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" buff="buffGrandSlamDisplay"/>
 		</effect_group>
 
@@ -1677,7 +1677,7 @@
 			<requirement name="!EntityTagCompare" target="other" tags="trader"/>
 			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="5" force="350"/>
-				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="grandslam_perk"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="silencefiller"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" buff="buffGrandSlamDisplay"/>
 		</effect_group>
 
@@ -1688,7 +1688,7 @@
 			<requirement name="!EntityTagCompare" target="other" tags="trader"/>
 			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="30"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="6" force="350"/>
-				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="grandslam_perk"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="silencefiller"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" buff="buffGrandSlamDisplay"/>
 		</effect_group>
 
@@ -1699,7 +1699,7 @@
 			<requirement name="!EntityTagCompare" target="other" tags="trader"/>
 			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="40"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="7" force="350"/>
-				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="grandslam_perk"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="silencefiller"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" buff="buffGrandSlamDisplay"/>
 		</effect_group>
 
@@ -1710,7 +1710,7 @@
 			<requirement name="!EntityTagCompare" target="other" tags="trader"/>
 			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="8" force="350"/>
-				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="grandslam_perk"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="silencefiller"/>
 				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" buff="buffGrandSlamDisplay"/>
 		</effect_group>
 
@@ -1799,7 +1799,7 @@
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
 		<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="silencefiller" play_in_head="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="1" value="1"/>
 		</effect_group>
@@ -1811,7 +1811,7 @@
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
 		<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="silencefiller" play_in_head="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="2" value="1"/>
 		</effect_group>
@@ -1823,7 +1823,7 @@
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
 		<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="silencefiller" play_in_head="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="3" value="1"/>
 		</effect_group>
@@ -1835,7 +1835,7 @@
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
 		<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="silencefiller" play_in_head="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="4" value="1"/>
 		</effect_group>
@@ -1847,7 +1847,7 @@
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
 		<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="silencefiller" play_in_head="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="5" value="1"/>
 		</effect_group>
@@ -2862,7 +2862,7 @@
 			<requirement name="!IsAttachedToEntity"/>
 			<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
 				<passive_effect name="GeneralDamageResist" operation="base_add" value="1"/>
-				<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+				<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="silencefiller" play_in_head="true"/>
 				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="self" buff="buffSpectersGrace"/>
 		</effect_group>
 

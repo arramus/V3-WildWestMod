@@ -2966,7 +2966,7 @@
 
 <!-- *** Books_Schematics_Scaled -->
 <lootgroup name="booksAllScaled">
-	<item group="perkBooks" loot_prob_template="high"/>
+	<item group="perkBooks" loot_prob_template="high" tags="sniperProb,spearHunterProb,huntingProb,wastelandProb,batterUpProb,sledgeSagaProb,artOfMiningProb,barBrawlingProb,autoWeaponsProb,rangersProb,pistolPeteProb,enforcerProb,urbanProb,nightStalkerProb,techJunkieProb,greatHeistProb,luckyProb"/>
 	<item group="schematicsModsAndGeneralCommon" loot_prob_template="medHigh"/>
 	<item group="schematicsVehiclesCommon" loot_prob_template="low"/>
 </lootgroup>
@@ -2982,6 +2982,10 @@
 </lootgroup>
 
 <!-- *** Electrical_Devices -->
+<!--lootgroup name="groupRareElectrical" loot_quality_template="QLTemplateT3">
+	<item name="solarCell"/>
+	<item name="solarbank"/>
+</lootgroup-->
 <lootgroup name="groupElectricalDevices">
 	<item name="resourceElectricParts" count="10,20" loot_prob_template="high"/> <!-- 5,10 -->
 	<!--item name="electricwirerelay" count="5,15" loot_prob_template="med"/-->
@@ -4948,6 +4952,7 @@
 	<item name="drinkCanMegaCrush" count="1" loot_prob_template="low"/> <!-- WW New -->
 	<item name="resourceAcid" count="1" loot_prob_template="low"/> <!-- WW New -->	
 	<item name="resourceSnowBall" count="2,4" loot_prob_template="veryLow"/> <!-- WW New -->
+	<item name="foodApple" count="1" loot_prob_template="low"/> <!-- WW New -->
 </lootgroup>
 
 <lootgroup name="groupBeerCooler" count="all">
@@ -4960,7 +4965,7 @@
 	<item name="resourcePaper" count="1"/>
 	<item name="drinkJarRiverWater" count="1" loot_prob_template="medLow"/>
 	<item name="drinkJarBoiledWater" count="1" loot_prob_template="low"/>
-	<item name="drinkJarCoffee" count="1" loot_prob_template="Low"/> <!-- Raised -->
+	<item name="drinkJarCoffee" count="1" loot_prob_template="low"/> <!-- Raised -->
 	<!-- <item name="drinkJarEmpty" count="1" loot_prob_template="veryLow"/> -->
 </lootgroup>
 
@@ -7965,7 +7970,7 @@
 	<item name="drugVitamins" count="1"/>
 	<item name="drugSteroids" count="1"/>
 	<item name="foodHoney" count="1"/>
-	<item name="drugHerbalAntibiotics" count="1"/>
+	<item name="drugHerbalAntibiotics" count="1,2"/> <!-- WWM Increase -->
 	<!--item name="drugAntibiotics" count="1"/-->
 </lootgroup>
 

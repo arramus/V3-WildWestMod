@@ -479,6 +479,7 @@
 			<item name="modArmorAdvancedMuffledConnectors"/>
 			<item name="modArmorPlatingCrystalReinforced"/>
 			<item name="modArmorInsulatedLinerT3"/>
+			<!--item name="modArmorNightVision"/-->
 		</trader_item_group>
 
 		<!-- *** VEHICLE_MODS -->

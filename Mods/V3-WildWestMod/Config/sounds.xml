@@ -4,16 +4,18 @@
 <set xpath="/Sounds/SoundDataNode[@name='charge_keypress']/AudioClip/@ClipName">@:Sounds/Weapons/weapon_jam1.wav</set>
 <set xpath="/Sounds/SoundDataNode[@name='charge_keypress_armed']/AudioClip/@ClipName">@:Sounds/Weapons/weapon_jam2.wav</set>
 <set xpath="/Sounds/SoundDataNode[@name='Supply_Crate_Plane_lp']/AudioClip/@ClipName">#@modfolder:Resources/Steamsounds.unity3d?SteamTrainChug Away</set>
+
 <!-- Storm Warning Sound -->
 <set xpath="/Sounds/SoundDataNode[@name='ui_weather_alert']/AudioClip/@ClipName">#@modfolder:Resources/Steamsounds.unity3d?TrainSteamWhistle</set>
 
 <!-- TMB Horse clang removal -->
-
 <remove xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']"/>
 
 <!-- Horse Turbo sound removal -->
-
 <set xpath="/Sounds/SoundDataNode[@name='vehicle_turbo']/AudioClip/@ClipName">@:Sounds/Misc/silencefiller.wav</set>
+
+<!-- Silencing Nerd Outfit and Intellect Mastery Point Chance -->
+<set xpath="/Sounds/SoundDataNode[@name='nerd_outfit_perk']/AudioClip/@ClipName">@:Sounds/Misc/silencefiller.wav</set>
 
   <append xpath="/Sounds">
 
