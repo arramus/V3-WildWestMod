@@ -1,6 +1,12 @@
 <wildwestmod>
 
 	<!-- Vanilla Tweaks and Toggles -->
+	<!-- Revising the tiered price of Workstation Tools from the Trader Inventory to be closer in line with the Crucible -->
+	<set xpath="/items/item[@name='toolCookingGrill']/property[@name='TraderQualityMod']/@value">1,6</set><!-- Default is 1,20 -->
+	<set xpath="/items/item[@name='toolCookingPot']/property[@name='TraderQualityMod']/@value">1,6</set><!-- Default is 1,20 -->
+	<set xpath="/items/item[@name='toolBellows']/property[@name='TraderQualityMod']/@value">1,6</set><!-- Default is 1,20 -->
+	<set xpath="/items/item[@name='toolAnvil']/property[@name='TraderQualityMod']/@value">1,6</set><!-- Default is 1,20 -->
+	
 	<!-- remove UnlockedBy from Electrician match progression deletion -->
 	<remove xpath="/items/item/property[@name='UnlockedBy'][@value='craftingElectrician']" />	
 	
