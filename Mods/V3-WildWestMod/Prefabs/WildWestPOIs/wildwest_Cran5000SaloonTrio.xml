@@ -22,6 +22,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,2,0,0,0,0,2,0,0,0,0,0,0" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # " />
+  <property name="AllowDecorations" value="True" />
   <property class="IndexedBlockOffsets">
     <property class="Rally">
       <property name="0" value="6, 7, 5" />
@@ -53,7 +54,7 @@
       <property name="0" value="32, 7, 21" />
     </property>
     <property class="challenge_sinks">
-      <property name="0" value="11, 8, 15" />
+      <property name="0" value="45, 16, 11" />
     </property>
     <property class="challenge_gore">
       <property name="0" value="41, 4, 18" />
@@ -75,15 +76,15 @@
   </property>
   <property class="Stats">
     <property name="LightsVolume" value="9483.423" />
-    <property name="TotalVertices" value="872255" />
-    <property name="TotalTriangles" value="572392" />
+    <property name="TotalVertices" value="1071054" />
+    <property name="TotalTriangles" value="930476" />
     <property class="BlockEntities">
-      <property name="Vertices" value="762429" />
-      <property name="Triangles" value="506800" />
+      <property name="Vertices" value="961204" />
+      <property name="Triangles" value="864878" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="103258" />
-      <property name="Triangles" value="55880" />
+      <property name="Vertices" value="103282" />
+      <property name="Triangles" value="55886" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="128" />

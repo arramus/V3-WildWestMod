@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<signs version="2">
+  <sign guid="50ab3697-acb2-4350-ac45-ca057ad36237" name="New Sign" modified="2026-09-01 15:08:58Z" next_poly_id="0" next_text_id="1" next_noise_id="1" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0" rot="0" scale="0.4295919, 0.4295919" color="#1A4A83FF" mode="ColorOnly" font="Stardos Stencil" text="SALOON" direction="0" spacing="1.12" softness="0" dilate="0.24" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0" rot="0" scale="0.4295919, 0.4295919" color="#AD9E65FF" mode="ColorOnly" font="Stardos Stencil" text="SALOON" direction="0" spacing="1.12" softness="0" dilate="0.06" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="-0.5650128, -0.02441412" rot="90" scale="0.07905609, 0.005778818" color="#423918FF" mode="ColorOnly" seed="0" detail="4" softness="0" dilate="0" fade="0.5167023" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="0, 0" rot="0" scale="0.7552606, 0.4081127" color="#000000FF" mode="ColorOnly" seed="1" detail="4" softness="0.2750534" dilate="0" fade="0.488273" />
+  </sign>
+  <sign guid="507c3fc0-2ae4-4e7c-b6b9-7faaba10ed33" name="New Sign" modified="2026-09-01 15:08:29Z" next_poly_id="0" next_text_id="2" next_noise_id="1" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0" rot="0" scale="0.2572125, 0.2572125" color="#1A4A83FF" mode="ColorOnly" font="Stardos Stencil" text="Life Is A Game" direction="0" spacing="1.01" softness="0" dilate="0.24" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0" rot="0" scale="0.2572125, 0.2572125" color="#AD9E65FF" mode="ColorOnly" font="Stardos Stencil" text="Life Is A Game" direction="0" spacing="1.01" softness="0" dilate="0" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="-0.5650128, -0.02441412" rot="90" scale="0.07905609, 0.005778818" color="#52430BFF" mode="ColorOnly" seed="0" detail="4" softness="0" dilate="0" fade="0.4" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="0, 0" rot="0" scale="0.2707503, 0.1463027" color="#000000FF" mode="ColorOnly" seed="1" detail="4" softness="0.31059" dilate="0" fade="0.608273" />
+  </sign>
+</signs>

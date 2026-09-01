@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<signs version="2">
+  <sign guid="e8ec9fa0-e001-4eab-b88d-9b313176e816" name="New Sign" modified="2026-07-28 11:11:37Z" next_poly_id="1" next_text_id="2" next_noise_id="1" next_group_id="0">
+    <layer name="Poly 01" type="PolygonSignLayer" pos="0, 0" rot="0" scale="1.027437, 0.3324102" color="#9D8160FF" mode="ColorOnly" sides="4" smoothness="0" starify="0" softness="0" dilate="0" frequency="5" shapeMode="Normal" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0.13" rot="0" scale="0.2572125, 0.2572125" color="#483A3AFF" mode="ColorOnly" font="Dancing Script" text="Free Hobo Stew" direction="0" spacing="1" softness="0" dilate="0.1" />
+    <layer name="Text 02" type="TextSignLayer" pos="0, -0.12" rot="0" scale="0.2205275, 0.2205275" color="#483A3AFF" mode="ColorOnly" font="Dancing Script" text="with every Sarsaparilla" direction="0" spacing="1" softness="0" dilate="0.1" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="0, 0" rot="90" scale="0.05520776, 0.007861347" color="#483A3AFF" mode="ColorOnly" seed="1" detail="4" softness="0" dilate="1" fade="0.8009951" />
+  </sign>
+  <sign guid="33597e25-cbf9-43a2-84e9-108a53c5cb45" name="New Sign (1)" modified="2026-07-28 11:12:24Z" next_poly_id="1" next_text_id="2" next_noise_id="1" next_group_id="0">
+    <layer name="Poly 01" type="PolygonSignLayer" pos="0, 0" rot="0" scale="1.027437, 0.5010552" color="#9D8160FF" mode="ColorOnly" sides="4" smoothness="0" starify="0" softness="0" dilate="0" frequency="5" shapeMode="Normal" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0.22" rot="0" scale="0.3, 0.3" color="#483A3AFF" mode="ColorOnly" font="Dancing Script" text="Try our famous" direction="0" spacing="1" softness="0" dilate="0.1" />
+    <layer name="Text 02" type="TextSignLayer" pos="0, -0.17" rot="0" scale="0.2443519, 0.2443519" color="#C41717FF" mode="ColorOnly" font="Dancing Script" text="Cranberry Margarita" direction="0" spacing="1" softness="0" dilate="0.3" />
+    <layer name="Text 02" type="TextSignLayer" pos="0, -0.16" rot="0" scale="0.2443519, 0.2443519" color="#483A3AFF" mode="ColorOnly" font="Dancing Script" text="Cranberry Margarita" direction="0" spacing="1" softness="0" dilate="0.1" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="0, 0" rot="90" scale="0.05520776, 0.007861347" color="#483A3AFF" mode="ColorOnly" seed="1" detail="4" softness="0" dilate="1" fade="0.8009951" />
+  </sign>
+</signs>
