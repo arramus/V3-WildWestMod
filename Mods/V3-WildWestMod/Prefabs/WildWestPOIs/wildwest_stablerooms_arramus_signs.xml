@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<signs version="2">
+  <sign guid="46582350-81a8-4899-8bfd-444d269d5b40" name="New Sign" modified="2026-09-11 01:59:22Z" next_poly_id="0" next_text_id="1" next_noise_id="1" next_group_id="0">
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0.02" rot="0" scale="0.4081123, 0.4081123" color="#753B3BFF" mode="ColorOnly" font="Dancing Script" text="Stablerooms" direction="0" spacing="1" softness="0" dilate="0.28" />
+    <layer name="Text 01" type="TextSignLayer" pos="0, 0.02" rot="0" scale="0.4081123, 0.4081123" color="#2A0A0AFF" mode="ColorOnly" font="Dancing Script" text="Stablerooms" direction="0" spacing="1" softness="0" dilate="0.18" />
+    <layer name="Noise 01" type="NoiseSignLayer" pos="0, 0" rot="0" scale="0.162108, 0.004247956" color="#918080FF" mode="ColorOnly" seed="0" detail="4" softness="0" dilate="-0.2" fade="0.68" />
+  </sign>
+</signs>
