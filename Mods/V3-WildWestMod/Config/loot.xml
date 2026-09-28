@@ -1562,7 +1562,7 @@
 	<item name="clothingOutfitT1"/>
 	<item name="clothingHandsT1"/>
 	<item name="clothingFeetT1"/>
-	<item name="clothingSkillMagazine" count="1" loot_prob_template="med"/>
+	<item name="clothingSkillMagazine" count="2,3" loot_prob_template="medHigh"/>
 </lootgroup>
 
 <lootgroup name="groupT2Clothing" abundance_type="Armor">
@@ -1570,7 +1570,7 @@
 	<item name="clothingOutfitT2"/>
 	<item name="clothingHandsT2"/>
 	<item name="clothingFeetT2"/>
-	<item name="clothingSkillMagazine" count="1" loot_prob_template="medLow"/>
+	<item name="clothingSkillMagazine" count="1,2" loot_prob_template="med"/>
 </lootgroup>
 
 <lootgroup name="groupT3Clothing" abundance_type="Armor">
@@ -1578,7 +1578,7 @@
 	<item name="clothingOutfitT3"/>
 	<item name="clothingHandsT3"/>
 	<item name="clothingFeetT3"/>
-	<item name="clothingSkillMagazine" count="1" loot_prob_template="medLow"/>
+	<item name="clothingSkillMagazine" count="1,2" loot_prob_template="medLow"/>
 </lootgroup>
 
 <lootgroup name="groupAllClothing" loot_quality_template="qualBaseTemplate">
@@ -1702,6 +1702,12 @@
 <lootgroup name="groupArmorChests" count="all">
 	<item group="groupArmorPartsChests" count="1"/>
 	<item group="groupAllArmor" loot_prob_template="ProbT0Delayed" force_prob="true"/>
+</lootgroup>
+
+<lootgroup name="groupPlayerBackpacks" loot_quality_template="armorQualityTemplate" abundance_type="Armor">
+	<item name="backpackSmall" count="1" loot_prob_template="ProbT1"/>
+	<item name="backpackMedium" count="1" loot_prob_template="ProbT2"/>
+	<item name="backpackLarge" count="1" loot_prob_template="ProbT3"/>
 </lootgroup>
 
 <lootgroup name="groupAmmoRocket">
@@ -2114,6 +2120,7 @@
 	<item name="modMeleeClubMetalSpikes"/>
 	<item name="modMeleeClubMetalChain"/>
 	<item name="modMeleeErgonomicGrip"/>
+	<item name="modMeleeDiamondTip"/>
 	<item name="modMeleeTemperedBlade"/>
 	<item name="modMeleeIronBreaker"/>
 	<!--item name="modFuelTankSmall" loot_prob_template="ProbT3"/-->
@@ -2205,6 +2212,7 @@
 	<item name="modArmorBandolier"/>
 	<item name="modArmorTripleStoragePocket"/>
 	<item name="modArmorAdvancedMuffledConnectors"/>
+	<item name="modArmorWaterPurifier"/>
 	<item name="modArmorPlatingCrystalReinforced"/> <!-- Wild West Mod -->
 	<item name="modArmorInsulatedLinerT3"/>
 </lootgroup>
@@ -2281,7 +2289,7 @@
 	<item name="meleeWpnClubT1CandyClub"/>		 <!-- *** HOLIDAY_ITEM -->
 	<item name="meleeWpnBladeT1CandyKnife"/>	 <!-- *** HOLIDAY_ITEM -->
 	<item name="armorSantaHatHelmet"/>			 <!-- *** HOLIDAY_ITEM -->
-</lootgroup>			
+</lootgroup>
 <!-- *** Grill_Loot -->
 <lootgroup name="groupGrills01">
 	<item name="foodRottingFlesh" count="1,3" loot_prob_template="high"/>
@@ -2656,6 +2664,7 @@
 	
 	<!-- Savage_Country_AND_Trader_Joel_Magazines -->
 	<item name="armorSkillMagazine"/>
+	<item name="backpackSkillMagazine"/>
 	
 	<!-- Pop-N-Pills_AND_Trader_Jen_Magazines -->
 	<item name="medicalSkillMagazine"/>
@@ -2690,6 +2699,7 @@
 	<item name="machineGunsSkillMagazine" count="2"/>
 	<item name="explosivesSkillMagazine" count="2"/>
 	<item name="armorSkillMagazine" count="2"/>
+	<item name="backpackSkillMagazine" count="2"/>
 	<item name="roboticsSkillMagazine" count="2"/>
 
 	<item name="workstationSkillMagazine" count="2"/>
@@ -2722,6 +2732,7 @@
 	<item name="machineGunsSkillMagazine" count="2"/>
 	<item name="explosivesSkillMagazine" count="2"/>
 	<item name="armorSkillMagazine" count="2"/>
+	<item name="backpackSkillMagazine" count="2"/>
 	<item name="roboticsSkillMagazine" count="2"/>
 
 	<item name="workstationSkillMagazine" count="2"/>
@@ -3293,7 +3304,7 @@
 	<item name="bookWasteTreasuresHoney"/>
 	<item name="bookWasteTreasuresSinks"/>
 	<item name="bookWasteTreasuresWater"/>
-	
+
 	<item name="bookFiremansAlmanacSpeed"/>
 	<item name="bookFiremansAlmanacAxes"/>
 	<item name="bookFiremansAlmanacEquipment"/>
@@ -6541,7 +6552,7 @@
 	<item name="ammo44MagnumBulletBall" count="3,5" loot_prob_template="med"/>
 	<item name="drinkJarBeer" count="1" loot_prob_template="low"/>
 	<item name="drinkCanMegaCrush" count="1" loot_prob_template="low"/>
-	<item name="gunHandgunT1666Revolver" loot_prob_template="veryLow"/>
+	<item name="gunHandgunT1666Revolver" loot_prob_template="med"/> <!-- WWM Toilets are few -->
 	<item name="meleeWpnBladeT1HuntingKnife" loot_prob_template="veryLow"/>
 	<item name="meleeWpnBladeT1HuntingKnifeObsidian" loot_prob_template="veryLow"/>	
 	<item name="meleeWpnBladeT1HuntingKnifeMedusa" loot_prob_template="veryLow"/>															  
@@ -6558,6 +6569,7 @@
 <lootgroup name="groupSavageCountryMagazines" abundance_type="Magazines">
 	
 	<item name="armorSkillMagazine"/>
+	<item name="backpackSkillMagazine"/>
 	<item name="bowsSkillMagazine"/>
 	<item name="spearsSkillMagazine"/>
 	<item name="bladesSkillMagazine"/>
@@ -6610,6 +6622,7 @@
 
 <lootgroup name="groupSavageCountryCrate01">
 	<item name="armorSkillMagazine" loot_prob_template="high"/>
+	<item name="backpackSkillMagazine" loot_prob_template="high"/>
 	<item name="bowsSkillMagazine" loot_prob_template="high"/>
 	<item name="spearsSkillMagazine" loot_prob_template="high"/>
 	<item name="bladesSkillMagazine" loot_prob_template="high"/>
@@ -6621,11 +6634,12 @@
 </lootgroup>
 
 <lootgroup name="groupSavageCountryCrate02">
+	<item name="resourceCloth" count="3,5" loot_prob_template="high"/>
 	<item group="groupSavageCountryBooks" loot_prob_template="medLow" tags="rangersProb,spearHunterProb,huntingProb,batterUpProb"/>
 	<item group="groupSavageCountryMagazines" loot_prob_template="medLow" tags="armorLightSkill,armorMediumSkill,armorHeavySkill,bowSkill,spearSkill,bladeSkill,clubSkill"/>
-	<item name="resourceSewingKit" count="1,2" loot_prob_template="low"/>
-	<item name="resourceCloth" count="3,5" loot_prob_template="high"/>
+	<item group="groupPlayerBackpacks" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill"/>
 	<item group="groupMedicalCommon" loot_prob_template="med" tags="medicalSkill"/>
+	<item name="resourceSewingKit" count="1,2" loot_prob_template="low"/>
 </lootgroup>
 
 <lootgroup name="groupSavageCountryCrate03">
@@ -6836,6 +6850,7 @@
 	<item name="explosivesSkillMagazine"/>
 	<item name="vehiclesSkillMagazine"/>
 	<item name="armorSkillMagazine"/>
+	<item name="backpackSkillMagazine"/>
 	<item group="groupUrbanCombatBooks" loot_prob_template="low" tags="urbanProb"/>
 	<item group="groupPistolBooks" loot_prob_template="low" tags="pistolPeteProb"/>
 	<item group="groupEnforcerBooks" loot_prob_template="low" tags="enforcerProb"/>
@@ -6880,6 +6895,7 @@
 	<item name="explosivesSkillMagazine"/>
 	<item name="vehiclesSkillMagazine"/>
 	<item name="armorSkillMagazine"/>
+	<item name="backpackSkillMagazine"/>
 	<item group="groupBatterUpBooks" loot_prob_template="low" tags="batterUpProb"/>
 	<item group="groupBarBrawlingBooks" loot_prob_template="low" tags="barBrawlingProb"/>
 	<item group="groupLuckyLooterBooks" loot_prob_template="low" tags="luckyProb"/>
@@ -7758,7 +7774,7 @@
 	<item group="groupMedicalCommon" loot_prob_template="low" tags="medicalSkill"/>
 	<item group="groupAmmoSmall" loot_prob_template="low" tags="ammo9mm,ammo44Mag,ammo762mm,ammoShells"/>
 	<item name="oldCash" count="1,20" loot_prob_template="low"/>
-	<item name="gunHandgunT1666Revolver" loot_prob_template="veryLow"/> <!-- Replaced gunHandgunT1Pistol -->
+	<item name="gunHandgunT1666Revolver" loot_prob_template="low"/> <!-- Replaced gunHandgunT1Pistol at WWM values -->
 </lootgroup>
 
 <lootgroup name="groupNightstand" count="all">
@@ -7925,7 +7941,7 @@
 
 <!-- *** Airdrop_Food -->
 <lootgroup name="airdropfood">
-	<item group="cannedfood"/>
+	<item group="cannedfood" tags="foodSkill"/>
 	<item name="foodGrilledMeat"/>
 	<item name="foodBaconAndEggs"/>
 	<item name="foodBlueberryPie"/>
@@ -9599,7 +9615,7 @@
 </lootcontainer>
 
 <!-- PLAYER dropped backpacks, they only destroy on close when they are empty -->
-<lootcontainer name="playerBackpack" count="0" size="7,10" destroy_on_close="empty" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
+<lootcontainer name="playerBackpack" count="0" size="8,15" destroy_on_close="empty" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
 	<item name="cobweb" count="0"/>
 </lootcontainer>
 
@@ -9634,7 +9650,7 @@
 </lootcontainer>
 
 <!-- "bag" container that gets dropped when another loot container is destroyed -->
-<lootcontainer name="cntDropBag" count="0" size="9,10" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
+<lootcontainer name="cntDropBag" count="0" size="8,15" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
 	<item name="cobweb" count="0"/>
 </lootcontainer>
 

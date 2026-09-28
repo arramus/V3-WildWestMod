@@ -102,10 +102,6 @@
 	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerPlague']/property[@name='Mesh']/@value">#@modfolder:Resources/NewDropBags.unity3d?zpackRedPrefabNew</set>
 	<set xpath="/entity_classes/entity_class[@name='DroppedLootContainerTwitch']/property[@name='Mesh']/@value">#@modfolder:Resources/NewDropBags.unity3d?zpackRedPrefabNew</set>
 		
-	<!-- KhaineGB's 60 Slot Backpack Mod -->
-	<!-- Edit player entity to increase inventory size -->
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/triggered_effect[@cvar='.carryCapacityBase'][@value='27']/@value">40</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@value='45']/@value">60</set>
     <!-- PLAYER STARTING ITEMS -->	
 	<!-- PLAYER RUNNING STAMINA -->
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add'][@value='-1.45'][@tags='running']/@value">-1.325</set><!-- Default is -1.45 -->

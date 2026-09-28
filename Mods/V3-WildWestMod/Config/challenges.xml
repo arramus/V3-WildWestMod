@@ -843,7 +843,7 @@
 	<challenge name="killSpider" title_key="challengeKillSpiderZombies" icon="ui_game_symbol_zombie" group="Zombies"
 		short_description_key="challengeKillSpiderZombiesShort" description_key="challengeKillSpiderZombiesDesc"
 		reward_text_key="challengeKillRewardMods" reward_event="reward_spider_zombie_slayer">
-		<objective type="Kill" entity_names="zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderCharged,zombieSpiderInfernal,zombieSpiderFeralFireGlider,zombieMiniSpiderFeralFireGlider," count="50"/>
+		<objective type="Kill" entity_names="zombieSpider,zombieSpiderFeral,zombieSpiderRadiated,zombieSpiderCharged,zombieSpiderInfernal,zombieSpiderFeralFireGlider,zombieMiniSpiderFeralFireGlider" count="50"/>
 	</challenge>
 
 	<challenge name="killBigMama" title_key="challengeKillBigMama" icon="ui_game_symbol_zombie" group="Zombies"

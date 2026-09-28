@@ -339,8 +339,6 @@ perkMotherLodeRank2LongDesc,progression,perk Str,,,,"Finding more ore is startin
 perkMotherLodeRank3LongDesc,progression,perk Str,,,,"You've hit your stride and can probably make a decent living at this. Harvest 60% more from ore, stone, terrain blocks and trees with any axe, pick, shovel, or tomahawk.",,,,,,,,,,,,,
 perkMotherLodeRank4LongDesc,progression,perk Str,,,,"You are going to need an Irish baby buggy to carry all this ore. Harvest 80% more from ore, stone, terrain blocks and trees with any axe, pick, shovel, or tomahawk.",,,,,,,,,,,,,
 perkMotherLodeRank5LongDesc,progression,perk Str,,,,"Mining is second nature to you and you find the mother lode everywhere you go. Harvest 100% more from ore, stone, terrain blocks and trees with any axe, pick, shovel, or tomahawk.",,,,,,,,,,,,,
-perkPackMuleRank1LongDesc,progression,perk Str,,,,"Who has time to organize their stuff perfectly? Carry four more items without being encumbered.",,,,,,,,,,,,,
-perkPackMuleRank2LongDesc,progression,perk Str,,,,"You know it's in there somewhere. Carry an additional four more items without being encumbered.",,,,,,,,,,,,,
 perkPummelPeteDesc,progression,perk Str,,,,Specialize in knocking your foes senseless with clubs and kitchen tools.,,,,,,,,,,,,,
 perkFlurryOfBlowsRank1LongDesc,progression,perk Agi,,,,"You have developed quick hands. One-handed melee attack speeds are increased by 10%.\n\nThis perk applies to clubs, brawling, knives, and machetes.",,,,,,,,,,,,,
 
