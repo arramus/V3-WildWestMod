@@ -6593,6 +6593,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 		<ingredient name="OakravenHydroponicFeed" count="1"/>
 	</recipe>
 
+	<conditional>
+		<if cond="mod_loaded('0-SCore_sphereii')">	
 	<!-- 0-Score Drop Box -->	
     <recipe name="cntIronWWMDropBox" count="1" tags="packMuleCrafting">
       <ingredient name="resourceForgedIron" count="10"/>
@@ -6600,6 +6602,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
       <ingredient name="resourceMechanicalParts" count="5"/>
       <ingredient name="resourceElectricParts" count="5"/>
     </recipe>
+		</if>
+	</conditional>
 
 <!-- Standardized order for mod ingredients -->
 	<!-- resourceCloth -->

@@ -3083,10 +3083,10 @@
 	<property name="difficulty" value="medium"/>
 	<property name="shareable" value="false"/>
 	
-			<objective type="EntityKill" id="animalRabbit" value="1"/>
-			<objective type="EntityKill" id="animalChicken" value="1"/>
-			<objective type="EntityKill" id="animalCoyote" value="1"/>
-			<objective type="EntityKill" id="animalBoar" value="1"/>			
+			<objective type="EntityKill" id="animalRabbit,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalChicken,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalCoyote,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalBoar,Clypsiphaya" value="1"/>			
 		
 	<reward type="Exp" value="2500"/>
 	<reward type="Quest" id="quest_eliminateanimals02">
@@ -3107,10 +3107,10 @@
 	<property name="difficulty" value="medium"/>
 	<property name="shareable" value="false"/>
 
-			<objective type="EntityKill" id="animalWolf" value="1"/>
-			<objective type="EntityKill" id="animalDoe" value="1"/>
-			<objective type="EntityKill" id="animalBear" value="1"/>
-			<objective type="EntityKill" id="animalMountainLion" value="1"/>			
+			<objective type="EntityKill" id="animalWolf,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalDoe,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalBear,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalMountainLion,Clypsiphaya" value="1"/>			
 		
 	<reward type="Exp" value="4000"/>
 	<reward type="Quest" id="quest_eliminateanimals03">
@@ -3131,10 +3131,10 @@
 	<property name="difficulty" value="medium"/>
 	<property name="shareable" value="false"/>
 
-			<objective type="EntityKill" id="animalWildWestSnowBear" value="1"/>
-			<objective type="EntityKill" id="animalSnowHare" value="1"/>
-			<objective type="EntityKill" id="animalDesertHare" value="1"/>
-			<objective type="EntityKill" id="animalStag" value="1"/>			
+			<objective type="EntityKill" id="animalWildWestSnowBear,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalSnowHare,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalDesertHare,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalStag,Clypsiphaya" value="1"/>			
 		
 	<reward type="Exp" value="6500"/>
 	<reward type="Quest" id="quest_eliminateanimals04">
@@ -3155,10 +3155,10 @@
 	<property name="difficulty" value="medium"/>
 	<property name="shareable" value="false"/>
 			
-			<objective type="EntityKill" id="animalZombieBear" value="1"/>
-			<objective type="EntityKill" id="animalZombieWastelandCraterBear" value="1"/>
-			<objective type="EntityKill" id="animalDireWolf" value="1"/>
-			<objective type="EntityKill" id="animalBossGrace" value="1"/>			
+			<objective type="EntityKill" id="animalZombieBear,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalZombieWastelandCraterBear,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalDireWolf,Clypsiphaya" value="1"/>
+			<objective type="EntityKill" id="animalBossGrace,Clypsiphaya" value="1"/>			
 		
 	<reward type="Exp" value="10000"/>
 	<reward type="SkillPoints" value="3" chainreward="false"/>
@@ -3202,7 +3202,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieWightFeralGunslinger" value="1" phase="1"/>
+		<objective type="EntityKill" id="zombieWightFeralGunslinger,Clypsiphaya" value="1" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunHandgunT1666Revolver"/>
 		
 		<reward type="Exp" value="5000"/>
@@ -3222,7 +3222,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieWightRadiatedGunslinger" value="2" phase="1"/>
+		<objective type="EntityKill" id="zombieWightRadiatedGunslinger,Clypsiphaya" value="2" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunHandgunT2RavenRevolver"/>
 		
 		<reward type="Exp" value="7500"/>
@@ -3242,7 +3242,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieWightChargedGunslinger" value="3" phase="1"/>
+		<objective type="EntityKill" id="zombieWightChargedGunslinger,Clypsiphaya" value="3" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunHandgunT3SchofieldRevolver"/>
 		
 		<reward type="Exp" value="10000"/>
@@ -3262,7 +3262,7 @@
 		<property name="difficulty" value="medium"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieWightInfernalGunslinger" value="4" phase="1"/>
+		<objective type="EntityKill" id="zombieWightInfernalGunslinger,Clypsiphaya" value="4" phase="1"/>
 		<requirement type="Quests.Requirements.Holding" id="gunGatling"/>
 		
 		<reward type="Exp" value="20000"/>
