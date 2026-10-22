@@ -687,7 +687,7 @@
 	<challenge name="healerFatigued" title_key="challengeHealerFatigued" icon="ui_game_symbol_medical" group="Healer"
 		short_description_key="challengeHealerFatiguedShort" description_key="challengeHealerFatiguedDesc"
 		reward_text_key="challenge_reward_5000xp" reward_event="challenge_reward_5000">
-		<objective type="CureDebuff" debuff="buffFatigued" item="drugVitamins" count="5"/>
+		<objective type="CureDebuff" debuff="buffFatigued" item="drugVitamins" count="1"/>
 	</challenge>
 
 	<challenge name="healerLaceration" title_key="challengeHealerLaceration" icon="ui_game_symbol_medical" group="Healer"
