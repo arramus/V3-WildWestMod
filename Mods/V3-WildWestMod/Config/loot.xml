@@ -2923,7 +2923,7 @@
 <!--	<item name="modVehicleExpandedSeatSchematic"/> -->
 	<item name="modVehicleSuperChargerSchematic"/>
 	<item name="modVehiclePlowSchematic"/>
-	<item name="modVehicleArmorSchematic"/>
+<!--	<item name="modVehicleArmorSchematic"/> -->
 	<item name="modVehicleStorageSchematic"/>
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
