@@ -7730,9 +7730,9 @@
 <lootgroup name="groupDesks02">
 	<item group="groupMedicalCommon" loot_prob_template="high" tags="medicalSkill"/>
 	<item group="foodCandy" loot_prob_template="low"/>
-	<item name="meleeToolFlashlight02" loot_prob_template="veryLow"/>
+	<item name="modArmorHelmetLight" loot_prob_template="veryLow"/> <!-- Replaces meleeToolFlashlight02-->
 	<item name="modArmorCigar" loot_prob_template="veryLow"/>
-	<item name="gunHandgunT1Pistol" loot_prob_template="veryLow"/>
+	<item name="gunHandgunT1666Revolver" loot_prob_template="veryLow"/> <!-- Replaced gunHandgunT1Pistol -->
 </lootgroup>
 
 <lootgroup name="groupDesks" count="all">
